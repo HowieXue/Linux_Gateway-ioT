@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<< HEAD
 ﻿# Linux
 Linux codes
 
@@ -8,4 +8,3 @@ Linux多线程方式实现嵌入式网关Server。
    应用于物联网嵌入式项目
  包括参数数据解析、协议转换、Socket收发、Sqlite、Uart、Camera等操作。 bin里有编译好的sqlite3(6410) lib里有库文件编译用。
 
->>>>>>> a58591253f9d78ca3a51019ffc672a55472686ff
