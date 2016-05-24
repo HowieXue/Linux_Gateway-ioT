@@ -1,0 +1,16 @@
+#CC=gcc
+CC=arm-none-linux-gnueabi-gcc
+AFLAGS=-Wall -c -g
+LDFLAGS= -lpthread  
+#LDFLAGS= -lpthread
+OBJS=main.o data_global.o pthread_transfer.o pthread_client_send.o link_list.o 
+
+run:$(OBJS)
+	$(CC) -o $@ $^ $(LDFLAGS)
+$(OBJS):%.o:%.c
+	$(CC) $(AFLAGS) $< -o $@
+
+.PHONY:clean
+clean:
+	rm *.o run #warehouse.db
+

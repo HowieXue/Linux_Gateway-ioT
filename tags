@@ -1,0 +1,1447 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AFLAGS	Makefile	/^AFLAGS=-Wall -c -g$/;"	m
+BUZZER_OFF	data_global.h	36;"	d
+BUZZER_ON	data_global.h	37;"	d
+CC	Makefile	/^CC=arm-none-linux-gnueabi-gcc$/;"	m
+COLLECT_CURRENT_GET	data_global.h	92;"	d
+COLLECT_INSERTER	data_global.h	90;"	d
+COLLECT_TIME_GET	data_global.h	91;"	d
+CreateEmptyCacheList	dota_cache.c	/^dota_cache_list CreateEmptyCacheList ()$/;"	f
+CreateEmptyLinklist	link_list.c	/^linklist CreateEmptyLinklist ()$/;"	f
+Create_table	pthread_sqlite.c	/^int Create_table (void)$/;"	f
+DEBUG_SQLITE	pthread_sqlite.h	8;"	d
+DEV_BUZZER	data_global.h	29;"	d
+DEV_CAMERA	data_global.h	31;"	d
+DEV_GPRS	data_global.h	26;"	d
+DEV_INFRARED	data_global.h	30;"	d
+DEV_LED	data_global.h	28;"	d
+DEV_ZIGBEE	data_global.h	27;"	d
+ENV_GET	data_global.h	89;"	d
+ENV_UPDATE	data_global.h	88;"	d
+EmptyCacheList	dota_cache.c	/^int EmptyCacheList (dota_cache_list h)$/;"	f
+EmptyLinklist	link_list.c	/^int EmptyLinklist (linklist h)$/;"	f
+From_to_send	pthread_sms.c	/^struct From_to_send{$/;"	s	file:
+GOODS_ADD	data_global.h	93;"	d
+GOODS_GET	data_global.h	95;"	d
+GOODS_IN	data_global.h	48;"	d
+GOODS_NUM	data_global.h	47;"	d
+GOODS_OUT	data_global.h	49;"	d
+GOODS_REDUCE	data_global.h	94;"	d
+GetCacheNode	dota_cache.c	/^dota_cache_list GetCacheNode (dota_cache_list h, dota_cache_list *t)$/;"	f
+GetLinknode	link_list.c	/^linklist GetLinknode (linklist h)$/;"	f
+HUMIDITY_MAX	pthread_sqlite.c	6;"	d	file:
+HUMIDITY_MIN	pthread_sqlite.c	7;"	d	file:
+IFNOCICE	pthread_sqlite.c	12;"	d	file:
+ILLUMINATION_MAX	pthread_sqlite.c	8;"	d	file:
+ILLUMINATION_MIN	pthread_sqlite.c	9;"	d	file:
+INTERVAL	pthread_sqlite.c	13;"	d	file:
+Init_table_env	pthread_sqlite.c	/^int Init_table_env (void)$/;"	f
+InsertCacheNode	dota_cache.c	/^int InsertCacheNode (dota_cache_list *t, dota_cache_data x)$/;"	f
+InsertLinknode	link_list.c	/^int InsertLinknode (link_datatype x)$/;"	f
+LDFLAGS	Makefile	/^LDFLAGS= -lpthread -L .\/lib -lsqlite3$/;"	m
+LED_OFF	data_global.h	35;"	d
+LED_ON	data_global.h	34;"	d
+LEN_ENV	pthread_transfer.c	4;"	d	file:
+LEN_RFID	pthread_transfer.c	5;"	d	file:
+MODE	pthread_sqlite.c	11;"	d	file:
+MSGTYPE_ACK	data_global.h	43;"	d
+MSGTYPE_ENV	data_global.h	41;"	d
+MSGTYPE_GOODS	data_global.h	42;"	d
+MSG_BEEP	data_global.h	66;"	d
+MSG_BEEP_OFF	data_global.h	67;"	d
+MSG_BEEP_ON	data_global.h	68;"	d
+MSG_CONNECT_SUCCESS	data_global.h	71;"	d
+MSG_LED	data_global.h	58;"	d
+MSG_LED_HUM_OFF	data_global.h	62;"	d
+MSG_LED_HUM_ON	data_global.h	61;"	d
+MSG_LED_ILL_OFF	data_global.h	64;"	d
+MSG_LED_ILL_ON	data_global.h	63;"	d
+MSG_LED_TEM_OFF	data_global.h	60;"	d
+MSG_LED_TEM_ON	data_global.h	59;"	d
+MSG_M0	data_global.h	70;"	d
+MSG_M0_BEEP_AU_OFF	data_global.h	79;"	d
+MSG_M0_BEEP_AU_ON	data_global.h	80;"	d
+MSG_M0_BEEP_OFF	data_global.h	77;"	d
+MSG_M0_BEEP_ON	data_global.h	78;"	d
+MSG_M0_FAN_OFF	data_global.h	72;"	d
+MSG_M0_FAN_ON1	data_global.h	73;"	d
+MSG_M0_FAN_ON2	data_global.h	74;"	d
+MSG_M0_FAN_ON3	data_global.h	75;"	d
+MSG_M0_LED_OFF	data_global.h	82;"	d
+MSG_M0_LED_ON	data_global.h	83;"	d
+MSG_M0_SEG_OFF	data_global.h	86;"	d
+MSG_M0_SEG_ON	data_global.h	85;"	d
+Message	pthread_sms.c	/^struct Message{$/;"	s	file:
+N	pthread_refresh.c	5;"	d	file:
+OBJS	Makefile	/^OBJS=main.o data_global.o pthread_transfer.o pthread_analysis.o \\$/;"	m
+PASSWORD	pthread_sqlite.c	16;"	d	file:
+QUEUE_MSG_LEN	data_global.h	56;"	d
+ReleaseResource	main.c	/^void ReleaseResource (int signo)$/;"	f
+SMS_BRE	data_global.h	54;"	d
+SMS_HUM	data_global.h	52;"	d
+SMS_ILL	data_global.h	53;"	d
+SMS_TEM	data_global.h	51;"	d
+SQLITE3_TEXT	include/sqlite3.h	3089;"	d
+SQLITE3_TEXT	sqlite3.h	3089;"	d
+SQLITE_ABORT	include/sqlite3.h	385;"	d
+SQLITE_ABORT	sqlite3.h	385;"	d
+SQLITE_ACCESS_EXISTS	include/sqlite3.h	921;"	d
+SQLITE_ACCESS_EXISTS	sqlite3.h	921;"	d
+SQLITE_ACCESS_READ	include/sqlite3.h	923;"	d
+SQLITE_ACCESS_READ	sqlite3.h	923;"	d
+SQLITE_ACCESS_READWRITE	include/sqlite3.h	922;"	d
+SQLITE_ACCESS_READWRITE	sqlite3.h	922;"	d
+SQLITE_ALTER_TABLE	include/sqlite3.h	2177;"	d
+SQLITE_ALTER_TABLE	sqlite3.h	2177;"	d
+SQLITE_ANALYZE	include/sqlite3.h	2179;"	d
+SQLITE_ANALYZE	sqlite3.h	2179;"	d
+SQLITE_ANY	include/sqlite3.h	3444;"	d
+SQLITE_ANY	sqlite3.h	3444;"	d
+SQLITE_API	include/sqlite3.h	53;"	d
+SQLITE_API	sqlite3.h	53;"	d
+SQLITE_ATTACH	include/sqlite3.h	2175;"	d
+SQLITE_ATTACH	sqlite3.h	2175;"	d
+SQLITE_AUTH	include/sqlite3.h	404;"	d
+SQLITE_AUTH	sqlite3.h	404;"	d
+SQLITE_BLOB	include/sqlite3.h	3082;"	d
+SQLITE_BLOB	sqlite3.h	3082;"	d
+SQLITE_BUSY	include/sqlite3.h	386;"	d
+SQLITE_BUSY	sqlite3.h	386;"	d
+SQLITE_BUSY_RECOVERY	include/sqlite3.h	456;"	d
+SQLITE_BUSY_RECOVERY	sqlite3.h	456;"	d
+SQLITE_CANTOPEN	include/sqlite3.h	395;"	d
+SQLITE_CANTOPEN	sqlite3.h	395;"	d
+SQLITE_CANTOPEN_NOTEMPDIR	include/sqlite3.h	457;"	d
+SQLITE_CANTOPEN_NOTEMPDIR	sqlite3.h	457;"	d
+SQLITE_CONFIG_GETMALLOC	include/sqlite3.h	1387;"	d
+SQLITE_CONFIG_GETMALLOC	sqlite3.h	1387;"	d
+SQLITE_CONFIG_GETMUTEX	include/sqlite3.h	1393;"	d
+SQLITE_CONFIG_GETMUTEX	sqlite3.h	1393;"	d
+SQLITE_CONFIG_GETPCACHE	include/sqlite3.h	1397;"	d
+SQLITE_CONFIG_GETPCACHE	sqlite3.h	1397;"	d
+SQLITE_CONFIG_HEAP	include/sqlite3.h	1390;"	d
+SQLITE_CONFIG_HEAP	sqlite3.h	1390;"	d
+SQLITE_CONFIG_LOG	include/sqlite3.h	1398;"	d
+SQLITE_CONFIG_LOG	sqlite3.h	1398;"	d
+SQLITE_CONFIG_LOOKASIDE	include/sqlite3.h	1395;"	d
+SQLITE_CONFIG_LOOKASIDE	sqlite3.h	1395;"	d
+SQLITE_CONFIG_MALLOC	include/sqlite3.h	1386;"	d
+SQLITE_CONFIG_MALLOC	sqlite3.h	1386;"	d
+SQLITE_CONFIG_MEMSTATUS	include/sqlite3.h	1391;"	d
+SQLITE_CONFIG_MEMSTATUS	sqlite3.h	1391;"	d
+SQLITE_CONFIG_MULTITHREAD	include/sqlite3.h	1384;"	d
+SQLITE_CONFIG_MULTITHREAD	sqlite3.h	1384;"	d
+SQLITE_CONFIG_MUTEX	include/sqlite3.h	1392;"	d
+SQLITE_CONFIG_MUTEX	sqlite3.h	1392;"	d
+SQLITE_CONFIG_PAGECACHE	include/sqlite3.h	1389;"	d
+SQLITE_CONFIG_PAGECACHE	sqlite3.h	1389;"	d
+SQLITE_CONFIG_PCACHE	include/sqlite3.h	1396;"	d
+SQLITE_CONFIG_PCACHE	sqlite3.h	1396;"	d
+SQLITE_CONFIG_SCRATCH	include/sqlite3.h	1388;"	d
+SQLITE_CONFIG_SCRATCH	sqlite3.h	1388;"	d
+SQLITE_CONFIG_SERIALIZED	include/sqlite3.h	1385;"	d
+SQLITE_CONFIG_SERIALIZED	sqlite3.h	1385;"	d
+SQLITE_CONFIG_SINGLETHREAD	include/sqlite3.h	1383;"	d
+SQLITE_CONFIG_SINGLETHREAD	sqlite3.h	1383;"	d
+SQLITE_CONSTRAINT	include/sqlite3.h	400;"	d
+SQLITE_CONSTRAINT	sqlite3.h	400;"	d
+SQLITE_COPY	include/sqlite3.h	2184;"	d
+SQLITE_COPY	sqlite3.h	2184;"	d
+SQLITE_CORRUPT	include/sqlite3.h	392;"	d
+SQLITE_CORRUPT	sqlite3.h	392;"	d
+SQLITE_CREATE_INDEX	include/sqlite3.h	2152;"	d
+SQLITE_CREATE_INDEX	sqlite3.h	2152;"	d
+SQLITE_CREATE_TABLE	include/sqlite3.h	2153;"	d
+SQLITE_CREATE_TABLE	sqlite3.h	2153;"	d
+SQLITE_CREATE_TEMP_INDEX	include/sqlite3.h	2154;"	d
+SQLITE_CREATE_TEMP_INDEX	sqlite3.h	2154;"	d
+SQLITE_CREATE_TEMP_TABLE	include/sqlite3.h	2155;"	d
+SQLITE_CREATE_TEMP_TABLE	sqlite3.h	2155;"	d
+SQLITE_CREATE_TEMP_TRIGGER	include/sqlite3.h	2156;"	d
+SQLITE_CREATE_TEMP_TRIGGER	sqlite3.h	2156;"	d
+SQLITE_CREATE_TEMP_VIEW	include/sqlite3.h	2157;"	d
+SQLITE_CREATE_TEMP_VIEW	sqlite3.h	2157;"	d
+SQLITE_CREATE_TRIGGER	include/sqlite3.h	2158;"	d
+SQLITE_CREATE_TRIGGER	sqlite3.h	2158;"	d
+SQLITE_CREATE_VIEW	include/sqlite3.h	2159;"	d
+SQLITE_CREATE_VIEW	sqlite3.h	2159;"	d
+SQLITE_CREATE_VTABLE	include/sqlite3.h	2180;"	d
+SQLITE_CREATE_VTABLE	sqlite3.h	2180;"	d
+SQLITE_DBCONFIG_LOOKASIDE	include/sqlite3.h	1438;"	d
+SQLITE_DBCONFIG_LOOKASIDE	sqlite3.h	1438;"	d
+SQLITE_DBSTATUS_CACHE_USED	include/sqlite3.h	5443;"	d
+SQLITE_DBSTATUS_CACHE_USED	sqlite3.h	5443;"	d
+SQLITE_DBSTATUS_LOOKASIDE_USED	include/sqlite3.h	5442;"	d
+SQLITE_DBSTATUS_LOOKASIDE_USED	sqlite3.h	5442;"	d
+SQLITE_DBSTATUS_MAX	include/sqlite3.h	5446;"	d
+SQLITE_DBSTATUS_MAX	sqlite3.h	5446;"	d
+SQLITE_DBSTATUS_SCHEMA_USED	include/sqlite3.h	5444;"	d
+SQLITE_DBSTATUS_SCHEMA_USED	sqlite3.h	5444;"	d
+SQLITE_DBSTATUS_STMT_USED	include/sqlite3.h	5445;"	d
+SQLITE_DBSTATUS_STMT_USED	sqlite3.h	5445;"	d
+SQLITE_DELETE	include/sqlite3.h	2160;"	d
+SQLITE_DELETE	sqlite3.h	2160;"	d
+SQLITE_DENY	include/sqlite3.h	2129;"	d
+SQLITE_DENY	sqlite3.h	2129;"	d
+SQLITE_DEPRECATED	include/sqlite3.h	70;"	d
+SQLITE_DEPRECATED	sqlite3.h	70;"	d
+SQLITE_DETACH	include/sqlite3.h	2176;"	d
+SQLITE_DETACH	sqlite3.h	2176;"	d
+SQLITE_DONE	include/sqlite3.h	409;"	d
+SQLITE_DONE	sqlite3.h	409;"	d
+SQLITE_DROP_INDEX	include/sqlite3.h	2161;"	d
+SQLITE_DROP_INDEX	sqlite3.h	2161;"	d
+SQLITE_DROP_TABLE	include/sqlite3.h	2162;"	d
+SQLITE_DROP_TABLE	sqlite3.h	2162;"	d
+SQLITE_DROP_TEMP_INDEX	include/sqlite3.h	2163;"	d
+SQLITE_DROP_TEMP_INDEX	sqlite3.h	2163;"	d
+SQLITE_DROP_TEMP_TABLE	include/sqlite3.h	2164;"	d
+SQLITE_DROP_TEMP_TABLE	sqlite3.h	2164;"	d
+SQLITE_DROP_TEMP_TRIGGER	include/sqlite3.h	2165;"	d
+SQLITE_DROP_TEMP_TRIGGER	sqlite3.h	2165;"	d
+SQLITE_DROP_TEMP_VIEW	include/sqlite3.h	2166;"	d
+SQLITE_DROP_TEMP_VIEW	sqlite3.h	2166;"	d
+SQLITE_DROP_TRIGGER	include/sqlite3.h	2167;"	d
+SQLITE_DROP_TRIGGER	sqlite3.h	2167;"	d
+SQLITE_DROP_VIEW	include/sqlite3.h	2168;"	d
+SQLITE_DROP_VIEW	sqlite3.h	2168;"	d
+SQLITE_DROP_VTABLE	include/sqlite3.h	2181;"	d
+SQLITE_DROP_VTABLE	sqlite3.h	2181;"	d
+SQLITE_EMPTY	include/sqlite3.h	397;"	d
+SQLITE_EMPTY	sqlite3.h	397;"	d
+SQLITE_ERROR	include/sqlite3.h	382;"	d
+SQLITE_ERROR	sqlite3.h	382;"	d
+SQLITE_EXPERIMENTAL	include/sqlite3.h	71;"	d
+SQLITE_EXPERIMENTAL	sqlite3.h	71;"	d
+SQLITE_EXTENSION_INIT1	include/sqlite3ext.h	375;"	d
+SQLITE_EXTENSION_INIT2	include/sqlite3ext.h	376;"	d
+SQLITE_EXTERN	include/sqlite3.h	49;"	d
+SQLITE_EXTERN	sqlite3.h	49;"	d
+SQLITE_FCNTL_CHUNK_SIZE	include/sqlite3.h	712;"	d
+SQLITE_FCNTL_CHUNK_SIZE	sqlite3.h	712;"	d
+SQLITE_FCNTL_LOCKSTATE	include/sqlite3.h	707;"	d
+SQLITE_FCNTL_LOCKSTATE	sqlite3.h	707;"	d
+SQLITE_FCNTL_SIZE_HINT	include/sqlite3.h	711;"	d
+SQLITE_FCNTL_SIZE_HINT	sqlite3.h	711;"	d
+SQLITE_FLOAT	include/sqlite3.h	3081;"	d
+SQLITE_FLOAT	sqlite3.h	3081;"	d
+SQLITE_FORMAT	include/sqlite3.h	405;"	d
+SQLITE_FORMAT	sqlite3.h	405;"	d
+SQLITE_FULL	include/sqlite3.h	394;"	d
+SQLITE_FULL	sqlite3.h	394;"	d
+SQLITE_FUNCTION	include/sqlite3.h	2182;"	d
+SQLITE_FUNCTION	sqlite3.h	2182;"	d
+SQLITE_GET_LOCKPROXYFILE	include/sqlite3.h	708;"	d
+SQLITE_GET_LOCKPROXYFILE	sqlite3.h	708;"	d
+SQLITE_IGNORE	include/sqlite3.h	2130;"	d
+SQLITE_IGNORE	sqlite3.h	2130;"	d
+SQLITE_INDEX_CONSTRAINT_EQ	include/sqlite3.h	4572;"	d
+SQLITE_INDEX_CONSTRAINT_EQ	sqlite3.h	4572;"	d
+SQLITE_INDEX_CONSTRAINT_GE	include/sqlite3.h	4576;"	d
+SQLITE_INDEX_CONSTRAINT_GE	sqlite3.h	4576;"	d
+SQLITE_INDEX_CONSTRAINT_GT	include/sqlite3.h	4573;"	d
+SQLITE_INDEX_CONSTRAINT_GT	sqlite3.h	4573;"	d
+SQLITE_INDEX_CONSTRAINT_LE	include/sqlite3.h	4574;"	d
+SQLITE_INDEX_CONSTRAINT_LE	sqlite3.h	4574;"	d
+SQLITE_INDEX_CONSTRAINT_LT	include/sqlite3.h	4575;"	d
+SQLITE_INDEX_CONSTRAINT_LT	sqlite3.h	4575;"	d
+SQLITE_INDEX_CONSTRAINT_MATCH	include/sqlite3.h	4577;"	d
+SQLITE_INDEX_CONSTRAINT_MATCH	sqlite3.h	4577;"	d
+SQLITE_INSERT	include/sqlite3.h	2169;"	d
+SQLITE_INSERT	sqlite3.h	2169;"	d
+SQLITE_INTEGER	include/sqlite3.h	3080;"	d
+SQLITE_INTEGER	sqlite3.h	3080;"	d
+SQLITE_INTERNAL	include/sqlite3.h	383;"	d
+SQLITE_INTERNAL	sqlite3.h	383;"	d
+SQLITE_INTERRUPT	include/sqlite3.h	390;"	d
+SQLITE_INTERRUPT	sqlite3.h	390;"	d
+SQLITE_IOCAP_ATOMIC	include/sqlite3.h	506;"	d
+SQLITE_IOCAP_ATOMIC	sqlite3.h	506;"	d
+SQLITE_IOCAP_ATOMIC16K	include/sqlite3.h	512;"	d
+SQLITE_IOCAP_ATOMIC16K	sqlite3.h	512;"	d
+SQLITE_IOCAP_ATOMIC1K	include/sqlite3.h	508;"	d
+SQLITE_IOCAP_ATOMIC1K	sqlite3.h	508;"	d
+SQLITE_IOCAP_ATOMIC2K	include/sqlite3.h	509;"	d
+SQLITE_IOCAP_ATOMIC2K	sqlite3.h	509;"	d
+SQLITE_IOCAP_ATOMIC32K	include/sqlite3.h	513;"	d
+SQLITE_IOCAP_ATOMIC32K	sqlite3.h	513;"	d
+SQLITE_IOCAP_ATOMIC4K	include/sqlite3.h	510;"	d
+SQLITE_IOCAP_ATOMIC4K	sqlite3.h	510;"	d
+SQLITE_IOCAP_ATOMIC512	include/sqlite3.h	507;"	d
+SQLITE_IOCAP_ATOMIC512	sqlite3.h	507;"	d
+SQLITE_IOCAP_ATOMIC64K	include/sqlite3.h	514;"	d
+SQLITE_IOCAP_ATOMIC64K	sqlite3.h	514;"	d
+SQLITE_IOCAP_ATOMIC8K	include/sqlite3.h	511;"	d
+SQLITE_IOCAP_ATOMIC8K	sqlite3.h	511;"	d
+SQLITE_IOCAP_SAFE_APPEND	include/sqlite3.h	515;"	d
+SQLITE_IOCAP_SAFE_APPEND	sqlite3.h	515;"	d
+SQLITE_IOCAP_SEQUENTIAL	include/sqlite3.h	516;"	d
+SQLITE_IOCAP_SEQUENTIAL	sqlite3.h	516;"	d
+SQLITE_IOCAP_UNDELETABLE_WHEN_OPEN	include/sqlite3.h	517;"	d
+SQLITE_IOCAP_UNDELETABLE_WHEN_OPEN	sqlite3.h	517;"	d
+SQLITE_IOERR	include/sqlite3.h	391;"	d
+SQLITE_IOERR	sqlite3.h	391;"	d
+SQLITE_IOERR_ACCESS	include/sqlite3.h	447;"	d
+SQLITE_IOERR_ACCESS	sqlite3.h	447;"	d
+SQLITE_IOERR_BLOCKED	include/sqlite3.h	445;"	d
+SQLITE_IOERR_BLOCKED	sqlite3.h	445;"	d
+SQLITE_IOERR_CHECKRESERVEDLOCK	include/sqlite3.h	448;"	d
+SQLITE_IOERR_CHECKRESERVEDLOCK	sqlite3.h	448;"	d
+SQLITE_IOERR_CLOSE	include/sqlite3.h	450;"	d
+SQLITE_IOERR_CLOSE	sqlite3.h	450;"	d
+SQLITE_IOERR_DELETE	include/sqlite3.h	444;"	d
+SQLITE_IOERR_DELETE	sqlite3.h	444;"	d
+SQLITE_IOERR_DIR_CLOSE	include/sqlite3.h	451;"	d
+SQLITE_IOERR_DIR_CLOSE	sqlite3.h	451;"	d
+SQLITE_IOERR_DIR_FSYNC	include/sqlite3.h	439;"	d
+SQLITE_IOERR_DIR_FSYNC	sqlite3.h	439;"	d
+SQLITE_IOERR_FSTAT	include/sqlite3.h	441;"	d
+SQLITE_IOERR_FSTAT	sqlite3.h	441;"	d
+SQLITE_IOERR_FSYNC	include/sqlite3.h	438;"	d
+SQLITE_IOERR_FSYNC	sqlite3.h	438;"	d
+SQLITE_IOERR_LOCK	include/sqlite3.h	449;"	d
+SQLITE_IOERR_LOCK	sqlite3.h	449;"	d
+SQLITE_IOERR_NOMEM	include/sqlite3.h	446;"	d
+SQLITE_IOERR_NOMEM	sqlite3.h	446;"	d
+SQLITE_IOERR_RDLOCK	include/sqlite3.h	443;"	d
+SQLITE_IOERR_RDLOCK	sqlite3.h	443;"	d
+SQLITE_IOERR_READ	include/sqlite3.h	435;"	d
+SQLITE_IOERR_READ	sqlite3.h	435;"	d
+SQLITE_IOERR_SHMLOCK	include/sqlite3.h	454;"	d
+SQLITE_IOERR_SHMLOCK	sqlite3.h	454;"	d
+SQLITE_IOERR_SHMOPEN	include/sqlite3.h	452;"	d
+SQLITE_IOERR_SHMOPEN	sqlite3.h	452;"	d
+SQLITE_IOERR_SHMSIZE	include/sqlite3.h	453;"	d
+SQLITE_IOERR_SHMSIZE	sqlite3.h	453;"	d
+SQLITE_IOERR_SHORT_READ	include/sqlite3.h	436;"	d
+SQLITE_IOERR_SHORT_READ	sqlite3.h	436;"	d
+SQLITE_IOERR_TRUNCATE	include/sqlite3.h	440;"	d
+SQLITE_IOERR_TRUNCATE	sqlite3.h	440;"	d
+SQLITE_IOERR_UNLOCK	include/sqlite3.h	442;"	d
+SQLITE_IOERR_UNLOCK	sqlite3.h	442;"	d
+SQLITE_IOERR_WRITE	include/sqlite3.h	437;"	d
+SQLITE_IOERR_WRITE	sqlite3.h	437;"	d
+SQLITE_LAST_ERRNO	include/sqlite3.h	710;"	d
+SQLITE_LAST_ERRNO	sqlite3.h	710;"	d
+SQLITE_LIMIT_ATTACHED	include/sqlite3.h	2513;"	d
+SQLITE_LIMIT_ATTACHED	sqlite3.h	2513;"	d
+SQLITE_LIMIT_COLUMN	include/sqlite3.h	2508;"	d
+SQLITE_LIMIT_COLUMN	sqlite3.h	2508;"	d
+SQLITE_LIMIT_COMPOUND_SELECT	include/sqlite3.h	2510;"	d
+SQLITE_LIMIT_COMPOUND_SELECT	sqlite3.h	2510;"	d
+SQLITE_LIMIT_EXPR_DEPTH	include/sqlite3.h	2509;"	d
+SQLITE_LIMIT_EXPR_DEPTH	sqlite3.h	2509;"	d
+SQLITE_LIMIT_FUNCTION_ARG	include/sqlite3.h	2512;"	d
+SQLITE_LIMIT_FUNCTION_ARG	sqlite3.h	2512;"	d
+SQLITE_LIMIT_LENGTH	include/sqlite3.h	2506;"	d
+SQLITE_LIMIT_LENGTH	sqlite3.h	2506;"	d
+SQLITE_LIMIT_LIKE_PATTERN_LENGTH	include/sqlite3.h	2514;"	d
+SQLITE_LIMIT_LIKE_PATTERN_LENGTH	sqlite3.h	2514;"	d
+SQLITE_LIMIT_SQL_LENGTH	include/sqlite3.h	2507;"	d
+SQLITE_LIMIT_SQL_LENGTH	sqlite3.h	2507;"	d
+SQLITE_LIMIT_TRIGGER_DEPTH	include/sqlite3.h	2516;"	d
+SQLITE_LIMIT_TRIGGER_DEPTH	sqlite3.h	2516;"	d
+SQLITE_LIMIT_VARIABLE_NUMBER	include/sqlite3.h	2515;"	d
+SQLITE_LIMIT_VARIABLE_NUMBER	sqlite3.h	2515;"	d
+SQLITE_LIMIT_VDBE_OP	include/sqlite3.h	2511;"	d
+SQLITE_LIMIT_VDBE_OP	sqlite3.h	2511;"	d
+SQLITE_LOCKED	include/sqlite3.h	387;"	d
+SQLITE_LOCKED	sqlite3.h	387;"	d
+SQLITE_LOCKED_SHAREDCACHE	include/sqlite3.h	455;"	d
+SQLITE_LOCKED_SHAREDCACHE	sqlite3.h	455;"	d
+SQLITE_LOCK_EXCLUSIVE	include/sqlite3.h	530;"	d
+SQLITE_LOCK_EXCLUSIVE	sqlite3.h	530;"	d
+SQLITE_LOCK_NONE	include/sqlite3.h	526;"	d
+SQLITE_LOCK_NONE	sqlite3.h	526;"	d
+SQLITE_LOCK_PENDING	include/sqlite3.h	529;"	d
+SQLITE_LOCK_PENDING	sqlite3.h	529;"	d
+SQLITE_LOCK_RESERVED	include/sqlite3.h	528;"	d
+SQLITE_LOCK_RESERVED	sqlite3.h	528;"	d
+SQLITE_LOCK_SHARED	include/sqlite3.h	527;"	d
+SQLITE_LOCK_SHARED	sqlite3.h	527;"	d
+SQLITE_MISMATCH	include/sqlite3.h	401;"	d
+SQLITE_MISMATCH	sqlite3.h	401;"	d
+SQLITE_MISUSE	include/sqlite3.h	402;"	d
+SQLITE_MISUSE	sqlite3.h	402;"	d
+SQLITE_MUTEX_FAST	include/sqlite3.h	5161;"	d
+SQLITE_MUTEX_FAST	sqlite3.h	5161;"	d
+SQLITE_MUTEX_RECURSIVE	include/sqlite3.h	5162;"	d
+SQLITE_MUTEX_RECURSIVE	sqlite3.h	5162;"	d
+SQLITE_MUTEX_STATIC_LRU	include/sqlite3.h	5168;"	d
+SQLITE_MUTEX_STATIC_LRU	sqlite3.h	5168;"	d
+SQLITE_MUTEX_STATIC_LRU2	include/sqlite3.h	5169;"	d
+SQLITE_MUTEX_STATIC_LRU2	sqlite3.h	5169;"	d
+SQLITE_MUTEX_STATIC_MASTER	include/sqlite3.h	5163;"	d
+SQLITE_MUTEX_STATIC_MASTER	sqlite3.h	5163;"	d
+SQLITE_MUTEX_STATIC_MEM	include/sqlite3.h	5164;"	d
+SQLITE_MUTEX_STATIC_MEM	sqlite3.h	5164;"	d
+SQLITE_MUTEX_STATIC_MEM2	include/sqlite3.h	5165;"	d
+SQLITE_MUTEX_STATIC_MEM2	sqlite3.h	5165;"	d
+SQLITE_MUTEX_STATIC_OPEN	include/sqlite3.h	5166;"	d
+SQLITE_MUTEX_STATIC_OPEN	sqlite3.h	5166;"	d
+SQLITE_MUTEX_STATIC_PRNG	include/sqlite3.h	5167;"	d
+SQLITE_MUTEX_STATIC_PRNG	sqlite3.h	5167;"	d
+SQLITE_NOLFS	include/sqlite3.h	403;"	d
+SQLITE_NOLFS	sqlite3.h	403;"	d
+SQLITE_NOMEM	include/sqlite3.h	388;"	d
+SQLITE_NOMEM	sqlite3.h	388;"	d
+SQLITE_NOTADB	include/sqlite3.h	407;"	d
+SQLITE_NOTADB	sqlite3.h	407;"	d
+SQLITE_NOTFOUND	include/sqlite3.h	393;"	d
+SQLITE_NOTFOUND	sqlite3.h	393;"	d
+SQLITE_NULL	include/sqlite3.h	3083;"	d
+SQLITE_NULL	sqlite3.h	3083;"	d
+SQLITE_OK	include/sqlite3.h	380;"	d
+SQLITE_OK	sqlite3.h	380;"	d
+SQLITE_OPEN	data_global.h	32;"	d
+SQLITE_OPEN_AUTOPROXY	include/sqlite3.h	472;"	d
+SQLITE_OPEN_AUTOPROXY	sqlite3.h	472;"	d
+SQLITE_OPEN_CREATE	include/sqlite3.h	469;"	d
+SQLITE_OPEN_CREATE	sqlite3.h	469;"	d
+SQLITE_OPEN_DELETEONCLOSE	include/sqlite3.h	470;"	d
+SQLITE_OPEN_DELETEONCLOSE	sqlite3.h	470;"	d
+SQLITE_OPEN_EXCLUSIVE	include/sqlite3.h	471;"	d
+SQLITE_OPEN_EXCLUSIVE	sqlite3.h	471;"	d
+SQLITE_OPEN_FULLMUTEX	include/sqlite3.h	481;"	d
+SQLITE_OPEN_FULLMUTEX	sqlite3.h	481;"	d
+SQLITE_OPEN_MAIN_DB	include/sqlite3.h	473;"	d
+SQLITE_OPEN_MAIN_DB	sqlite3.h	473;"	d
+SQLITE_OPEN_MAIN_JOURNAL	include/sqlite3.h	476;"	d
+SQLITE_OPEN_MAIN_JOURNAL	sqlite3.h	476;"	d
+SQLITE_OPEN_MASTER_JOURNAL	include/sqlite3.h	479;"	d
+SQLITE_OPEN_MASTER_JOURNAL	sqlite3.h	479;"	d
+SQLITE_OPEN_NOMUTEX	include/sqlite3.h	480;"	d
+SQLITE_OPEN_NOMUTEX	sqlite3.h	480;"	d
+SQLITE_OPEN_PRIVATECACHE	include/sqlite3.h	483;"	d
+SQLITE_OPEN_PRIVATECACHE	sqlite3.h	483;"	d
+SQLITE_OPEN_READONLY	include/sqlite3.h	467;"	d
+SQLITE_OPEN_READONLY	sqlite3.h	467;"	d
+SQLITE_OPEN_READWRITE	include/sqlite3.h	468;"	d
+SQLITE_OPEN_READWRITE	sqlite3.h	468;"	d
+SQLITE_OPEN_SHAREDCACHE	include/sqlite3.h	482;"	d
+SQLITE_OPEN_SHAREDCACHE	sqlite3.h	482;"	d
+SQLITE_OPEN_SUBJOURNAL	include/sqlite3.h	478;"	d
+SQLITE_OPEN_SUBJOURNAL	sqlite3.h	478;"	d
+SQLITE_OPEN_TEMP_DB	include/sqlite3.h	474;"	d
+SQLITE_OPEN_TEMP_DB	sqlite3.h	474;"	d
+SQLITE_OPEN_TEMP_JOURNAL	include/sqlite3.h	477;"	d
+SQLITE_OPEN_TEMP_JOURNAL	sqlite3.h	477;"	d
+SQLITE_OPEN_TRANSIENT_DB	include/sqlite3.h	475;"	d
+SQLITE_OPEN_TRANSIENT_DB	sqlite3.h	475;"	d
+SQLITE_OPEN_WAL	include/sqlite3.h	484;"	d
+SQLITE_OPEN_WAL	sqlite3.h	484;"	d
+SQLITE_PERM	include/sqlite3.h	384;"	d
+SQLITE_PERM	sqlite3.h	384;"	d
+SQLITE_PRAGMA	include/sqlite3.h	2170;"	d
+SQLITE_PRAGMA	sqlite3.h	2170;"	d
+SQLITE_PROTOCOL	include/sqlite3.h	396;"	d
+SQLITE_PROTOCOL	sqlite3.h	396;"	d
+SQLITE_RANGE	include/sqlite3.h	406;"	d
+SQLITE_RANGE	sqlite3.h	406;"	d
+SQLITE_READ	include/sqlite3.h	2171;"	d
+SQLITE_READ	sqlite3.h	2171;"	d
+SQLITE_READONLY	include/sqlite3.h	389;"	d
+SQLITE_READONLY	sqlite3.h	389;"	d
+SQLITE_REINDEX	include/sqlite3.h	2178;"	d
+SQLITE_REINDEX	sqlite3.h	2178;"	d
+SQLITE_ROW	include/sqlite3.h	408;"	d
+SQLITE_ROW	sqlite3.h	408;"	d
+SQLITE_SAVEPOINT	include/sqlite3.h	2183;"	d
+SQLITE_SAVEPOINT	sqlite3.h	2183;"	d
+SQLITE_SCHEMA	include/sqlite3.h	398;"	d
+SQLITE_SCHEMA	sqlite3.h	398;"	d
+SQLITE_SELECT	include/sqlite3.h	2172;"	d
+SQLITE_SELECT	sqlite3.h	2172;"	d
+SQLITE_SET_LOCKPROXYFILE	include/sqlite3.h	709;"	d
+SQLITE_SET_LOCKPROXYFILE	sqlite3.h	709;"	d
+SQLITE_SHM_EXCLUSIVE	include/sqlite3.h	950;"	d
+SQLITE_SHM_EXCLUSIVE	sqlite3.h	950;"	d
+SQLITE_SHM_LOCK	include/sqlite3.h	948;"	d
+SQLITE_SHM_LOCK	sqlite3.h	948;"	d
+SQLITE_SHM_NLOCK	include/sqlite3.h	960;"	d
+SQLITE_SHM_NLOCK	sqlite3.h	960;"	d
+SQLITE_SHM_SHARED	include/sqlite3.h	949;"	d
+SQLITE_SHM_SHARED	sqlite3.h	949;"	d
+SQLITE_SHM_UNLOCK	include/sqlite3.h	947;"	d
+SQLITE_SHM_UNLOCK	sqlite3.h	947;"	d
+SQLITE_SOURCE_ID	include/sqlite3.h	112;"	d
+SQLITE_SOURCE_ID	sqlite3.h	112;"	d
+SQLITE_STATIC	include/sqlite3.h	3651;"	d
+SQLITE_STATIC	sqlite3.h	3651;"	d
+SQLITE_STATUS_MALLOC_COUNT	include/sqlite3.h	5377;"	d
+SQLITE_STATUS_MALLOC_COUNT	sqlite3.h	5377;"	d
+SQLITE_STATUS_MALLOC_SIZE	include/sqlite3.h	5373;"	d
+SQLITE_STATUS_MALLOC_SIZE	sqlite3.h	5373;"	d
+SQLITE_STATUS_MEMORY_USED	include/sqlite3.h	5368;"	d
+SQLITE_STATUS_MEMORY_USED	sqlite3.h	5368;"	d
+SQLITE_STATUS_PAGECACHE_OVERFLOW	include/sqlite3.h	5370;"	d
+SQLITE_STATUS_PAGECACHE_OVERFLOW	sqlite3.h	5370;"	d
+SQLITE_STATUS_PAGECACHE_SIZE	include/sqlite3.h	5375;"	d
+SQLITE_STATUS_PAGECACHE_SIZE	sqlite3.h	5375;"	d
+SQLITE_STATUS_PAGECACHE_USED	include/sqlite3.h	5369;"	d
+SQLITE_STATUS_PAGECACHE_USED	sqlite3.h	5369;"	d
+SQLITE_STATUS_PARSER_STACK	include/sqlite3.h	5374;"	d
+SQLITE_STATUS_PARSER_STACK	sqlite3.h	5374;"	d
+SQLITE_STATUS_SCRATCH_OVERFLOW	include/sqlite3.h	5372;"	d
+SQLITE_STATUS_SCRATCH_OVERFLOW	sqlite3.h	5372;"	d
+SQLITE_STATUS_SCRATCH_SIZE	include/sqlite3.h	5376;"	d
+SQLITE_STATUS_SCRATCH_SIZE	sqlite3.h	5376;"	d
+SQLITE_STATUS_SCRATCH_USED	include/sqlite3.h	5371;"	d
+SQLITE_STATUS_SCRATCH_USED	sqlite3.h	5371;"	d
+SQLITE_STMTSTATUS_AUTOINDEX	include/sqlite3.h	5504;"	d
+SQLITE_STMTSTATUS_AUTOINDEX	sqlite3.h	5504;"	d
+SQLITE_STMTSTATUS_FULLSCAN_STEP	include/sqlite3.h	5502;"	d
+SQLITE_STMTSTATUS_FULLSCAN_STEP	sqlite3.h	5502;"	d
+SQLITE_STMTSTATUS_SORT	include/sqlite3.h	5503;"	d
+SQLITE_STMTSTATUS_SORT	sqlite3.h	5503;"	d
+SQLITE_SYNC_DATAONLY	include/sqlite3.h	548;"	d
+SQLITE_SYNC_DATAONLY	sqlite3.h	548;"	d
+SQLITE_SYNC_FULL	include/sqlite3.h	547;"	d
+SQLITE_SYNC_FULL	sqlite3.h	547;"	d
+SQLITE_SYNC_NORMAL	include/sqlite3.h	546;"	d
+SQLITE_SYNC_NORMAL	sqlite3.h	546;"	d
+SQLITE_TESTCTRL_ALWAYS	include/sqlite3.h	5249;"	d
+SQLITE_TESTCTRL_ALWAYS	sqlite3.h	5249;"	d
+SQLITE_TESTCTRL_ASSERT	include/sqlite3.h	5248;"	d
+SQLITE_TESTCTRL_ASSERT	sqlite3.h	5248;"	d
+SQLITE_TESTCTRL_BENIGN_MALLOC_HOOKS	include/sqlite3.h	5246;"	d
+SQLITE_TESTCTRL_BENIGN_MALLOC_HOOKS	sqlite3.h	5246;"	d
+SQLITE_TESTCTRL_BITVEC_TEST	include/sqlite3.h	5244;"	d
+SQLITE_TESTCTRL_BITVEC_TEST	sqlite3.h	5244;"	d
+SQLITE_TESTCTRL_FAULT_INSTALL	include/sqlite3.h	5245;"	d
+SQLITE_TESTCTRL_FAULT_INSTALL	sqlite3.h	5245;"	d
+SQLITE_TESTCTRL_FIRST	include/sqlite3.h	5240;"	d
+SQLITE_TESTCTRL_FIRST	sqlite3.h	5240;"	d
+SQLITE_TESTCTRL_ISKEYWORD	include/sqlite3.h	5252;"	d
+SQLITE_TESTCTRL_ISKEYWORD	sqlite3.h	5252;"	d
+SQLITE_TESTCTRL_LAST	include/sqlite3.h	5255;"	d
+SQLITE_TESTCTRL_LAST	sqlite3.h	5255;"	d
+SQLITE_TESTCTRL_OPTIMIZATIONS	include/sqlite3.h	5251;"	d
+SQLITE_TESTCTRL_OPTIMIZATIONS	sqlite3.h	5251;"	d
+SQLITE_TESTCTRL_PENDING_BYTE	include/sqlite3.h	5247;"	d
+SQLITE_TESTCTRL_PENDING_BYTE	sqlite3.h	5247;"	d
+SQLITE_TESTCTRL_PGHDRSZ	include/sqlite3.h	5253;"	d
+SQLITE_TESTCTRL_PGHDRSZ	sqlite3.h	5253;"	d
+SQLITE_TESTCTRL_PRNG_RESET	include/sqlite3.h	5243;"	d
+SQLITE_TESTCTRL_PRNG_RESET	sqlite3.h	5243;"	d
+SQLITE_TESTCTRL_PRNG_RESTORE	include/sqlite3.h	5242;"	d
+SQLITE_TESTCTRL_PRNG_RESTORE	sqlite3.h	5242;"	d
+SQLITE_TESTCTRL_PRNG_SAVE	include/sqlite3.h	5241;"	d
+SQLITE_TESTCTRL_PRNG_SAVE	sqlite3.h	5241;"	d
+SQLITE_TESTCTRL_RESERVE	include/sqlite3.h	5250;"	d
+SQLITE_TESTCTRL_RESERVE	sqlite3.h	5250;"	d
+SQLITE_TESTCTRL_SCRATCHMALLOC	include/sqlite3.h	5254;"	d
+SQLITE_TESTCTRL_SCRATCHMALLOC	sqlite3.h	5254;"	d
+SQLITE_TEXT	include/sqlite3.h	3085;"	d
+SQLITE_TEXT	include/sqlite3.h	3087;"	d
+SQLITE_TEXT	sqlite3.h	3085;"	d
+SQLITE_TEXT	sqlite3.h	3087;"	d
+SQLITE_TOOBIG	include/sqlite3.h	399;"	d
+SQLITE_TOOBIG	sqlite3.h	399;"	d
+SQLITE_TRANSACTION	include/sqlite3.h	2173;"	d
+SQLITE_TRANSACTION	sqlite3.h	2173;"	d
+SQLITE_TRANSIENT	include/sqlite3.h	3652;"	d
+SQLITE_TRANSIENT	sqlite3.h	3652;"	d
+SQLITE_UPDATE	include/sqlite3.h	2174;"	d
+SQLITE_UPDATE	sqlite3.h	2174;"	d
+SQLITE_UTF16	include/sqlite3.h	3443;"	d
+SQLITE_UTF16	sqlite3.h	3443;"	d
+SQLITE_UTF16BE	include/sqlite3.h	3442;"	d
+SQLITE_UTF16BE	sqlite3.h	3442;"	d
+SQLITE_UTF16LE	include/sqlite3.h	3441;"	d
+SQLITE_UTF16LE	sqlite3.h	3441;"	d
+SQLITE_UTF16_ALIGNED	include/sqlite3.h	3445;"	d
+SQLITE_UTF16_ALIGNED	sqlite3.h	3445;"	d
+SQLITE_UTF8	include/sqlite3.h	3440;"	d
+SQLITE_UTF8	sqlite3.h	3440;"	d
+SQLITE_VERSION	include/sqlite3.h	110;"	d
+SQLITE_VERSION	include/sqlite3.h	77;"	d
+SQLITE_VERSION	sqlite3.h	110;"	d
+SQLITE_VERSION	sqlite3.h	77;"	d
+SQLITE_VERSION_NUMBER	include/sqlite3.h	111;"	d
+SQLITE_VERSION_NUMBER	include/sqlite3.h	80;"	d
+SQLITE_VERSION_NUMBER	sqlite3.h	111;"	d
+SQLITE_VERSION_NUMBER	sqlite3.h	80;"	d
+STORAGE_NUM	data_global.h	45;"	d
+TELEPHONE_NUM	pthread_sqlite.c	10;"	d	file:
+TEMPERATURE_MAX	pthread_sqlite.c	4;"	d	file:
+TEMPERATURE_MIN	pthread_sqlite.c	5;"	d	file:
+UPDATE_PERIOD	pthread_sqlite.c	14;"	d	file:
+USER_NAME	pthread_sqlite.c	15;"	d	file:
+_SQLITE3EXT_H_	include/sqlite3ext.h	19;"	d
+_SQLITE3RTREE_H_	include/sqlite3.h	6140;"	d
+_SQLITE3RTREE_H_	sqlite3.h	6140;"	d
+_SQLITE3_H_	include/sqlite3.h	34;"	d
+_SQLITE3_H_	sqlite3.h	34;"	d
+__DATA_GLOBAL__H__	data_global.h	2;"	d
+__DOTA_CACHE_H__	dota_cache.h	2;"	d
+__LIST_QUEUE_H____	link_list.h	2;"	d
+__SEM_H__	sem.h	2;"	d
+__SQLITE_LIST_QUEUE_H____	sqlite_link_list.h	2;"	d
+__SQLITE_TEST_H__	pthread_sqlite.h	2;"	d
+__buf	sem.h	/^	struct seminfo  *__buf;  \/* Buffer for IPC_INFO$/;"	m	union:semun	typeref:struct:semun::seminfo
+_dota_node_	dota_cache.h	/^typedef struct _dota_node_$/;"	s
+_node_	link_list.h	/^typedef struct _node_$/;"	s
+_snode_	sqlite_link_list.h	/^typedef struct _snode_$/;"	s
+a	dota_cache_test.c	/^	char a;$/;"	m	struct:charpack	file:
+a	dota_cache_test.c	/^	int a;$/;"	m	struct:intpack	file:
+aConstraint	include/sqlite3.h	/^  } *aConstraint;            \/* Table of WHERE clause constraints *\/$/;"	m	struct:sqlite3_index_info	typeref:struct:sqlite3_index_info::sqlite3_index_constraint
+aConstraint	sqlite3.h	/^  } *aConstraint;            \/* Table of WHERE clause constraints *\/$/;"	m	struct:sqlite3_index_info	typeref:struct:sqlite3_index_info::sqlite3_index_constraint
+aConstraintUsage	include/sqlite3.h	/^  } *aConstraintUsage;$/;"	m	struct:sqlite3_index_info	typeref:struct:sqlite3_index_info::sqlite3_index_constraint_usage
+aConstraintUsage	sqlite3.h	/^  } *aConstraintUsage;$/;"	m	struct:sqlite3_index_info	typeref:struct:sqlite3_index_info::sqlite3_index_constraint_usage
+aOrderBy	include/sqlite3.h	/^  } *aOrderBy;               \/* The ORDER BY clause *\/$/;"	m	struct:sqlite3_index_info	typeref:struct:sqlite3_index_info::sqlite3_index_orderby
+aOrderBy	sqlite3.h	/^  } *aOrderBy;               \/* The ORDER BY clause *\/$/;"	m	struct:sqlite3_index_info	typeref:struct:sqlite3_index_info::sqlite3_index_orderby
+aParam	include/sqlite3.h	/^  double *aParam;                 \/* Parameters passed to SQL geom function *\/$/;"	m	struct:sqlite3_rtree_geometry
+aParam	sqlite3.h	/^  double *aParam;                 \/* Parameters passed to SQL geom function *\/$/;"	m	struct:sqlite3_rtree_geometry
+adc	data_global.h	/^	float adc;$/;"	m	struct:storage_info
+adc	pthread_analysis.c	/^	unsigned int adc;$/;"	m	struct:getEnvMsg	file:
+adcMIN	data_global.h	/^	float adcMIN;$/;"	m	struct:storage_info
+addGoods	pthread_sqlite.c	/^int addGoods (struct env_info_clien_addr env_info_clien_addr_t, int storageNum_t, int goodsKinds_t)$/;"	f
+aggregate_context	include/sqlite3ext.h	/^  void * (*aggregate_context)(sqlite3_context*,int nBytes);$/;"	m	struct:sqlite3_api_routines
+aggregate_count	include/sqlite3ext.h	/^  int  (*aggregate_count)(sqlite3_context*);$/;"	m	struct:sqlite3_api_routines
+all_info_RT	data_global.c	/^struct env_info_clien_addr all_info_RT;$/;"	v	typeref:struct:env_info_clien_addr
+argvIndex	include/sqlite3.h	/^    int argvIndex;           \/* if >0, constraint is part of argv to xFilter *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint_usage
+argvIndex	sqlite3.h	/^    int argvIndex;           \/* if >0, constraint is part of argv to xFilter *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint_usage
+array	sem.h	/^	unsigned short  *array;  \/* Array for GETALL, SETALL *\/$/;"	m	union:semun
+b	dota_cache_test.c	/^	char b;$/;"	m	struct:charpack	file:
+b	dota_cache_test.c	/^	int b;$/;"	m	struct:intpack	file:
+battery	data_global.h	/^	float battery;$/;"	m	struct:storage_info
+battery	pthread_analysis.c	/^	unsigned int battery;$/;"	m	struct:getEnvMsg	file:
+beep_status	pthread_analysis.c	/^char beep_status[STORAGE_NUM] = {0};$/;"	v
+bind_blob	include/sqlite3ext.h	/^  int  (*bind_blob)(sqlite3_stmt*,int,const void*,int n,void(*)(void*));$/;"	m	struct:sqlite3_api_routines
+bind_double	include/sqlite3ext.h	/^  int  (*bind_double)(sqlite3_stmt*,int,double);$/;"	m	struct:sqlite3_api_routines
+bind_int	include/sqlite3ext.h	/^  int  (*bind_int)(sqlite3_stmt*,int,int);$/;"	m	struct:sqlite3_api_routines
+bind_int64	include/sqlite3ext.h	/^  int  (*bind_int64)(sqlite3_stmt*,int,sqlite_int64);$/;"	m	struct:sqlite3_api_routines
+bind_null	include/sqlite3ext.h	/^  int  (*bind_null)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+bind_parameter_count	include/sqlite3ext.h	/^  int  (*bind_parameter_count)(sqlite3_stmt*);$/;"	m	struct:sqlite3_api_routines
+bind_parameter_index	include/sqlite3ext.h	/^  int  (*bind_parameter_index)(sqlite3_stmt*,const char*zName);$/;"	m	struct:sqlite3_api_routines
+bind_parameter_name	include/sqlite3ext.h	/^  const char * (*bind_parameter_name)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+bind_text	include/sqlite3ext.h	/^  int  (*bind_text)(sqlite3_stmt*,int,const char*,int n,void(*)(void*));$/;"	m	struct:sqlite3_api_routines
+bind_text16	include/sqlite3ext.h	/^  int  (*bind_text16)(sqlite3_stmt*,int,const void*,int,void(*)(void*));$/;"	m	struct:sqlite3_api_routines
+bind_value	include/sqlite3ext.h	/^  int  (*bind_value)(sqlite3_stmt*,int,const sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+bind_zeroblob	include/sqlite3ext.h	/^  int (*bind_zeroblob)(sqlite3_stmt*,int,int);$/;"	m	struct:sqlite3_api_routines
+blob_bytes	include/sqlite3ext.h	/^  int (*blob_bytes)(sqlite3_blob*);$/;"	m	struct:sqlite3_api_routines
+blob_close	include/sqlite3ext.h	/^  int (*blob_close)(sqlite3_blob*);$/;"	m	struct:sqlite3_api_routines
+blob_open	include/sqlite3ext.h	/^  int (*blob_open)(sqlite3*,const char*,const char*,const char*,sqlite3_int64,int,sqlite3_blob**);$/;"	m	struct:sqlite3_api_routines
+blob_read	include/sqlite3ext.h	/^  int (*blob_read)(sqlite3_blob*,void*,int,int);$/;"	m	struct:sqlite3_api_routines
+blob_write	include/sqlite3ext.h	/^  int (*blob_write)(sqlite3_blob*,const void*,int,int);$/;"	m	struct:sqlite3_api_routines
+buf	sem.h	/^	struct semid_ds *buf;    \/* Buffer for IPC_STAT, IPC_SET *\/$/;"	m	union:semun	typeref:struct:semun::semid_ds
+busy_handler	include/sqlite3ext.h	/^  int  (*busy_handler)(sqlite3*,int(*)(void*,int),void*);$/;"	m	struct:sqlite3_api_routines
+busy_timeout	include/sqlite3ext.h	/^  int  (*busy_timeout)(sqlite3*,int ms);$/;"	m	struct:sqlite3_api_routines
+buzzer_status	data_global.h	/^	unsigned char buzzer_status;$/;"	m	struct:storage_info
+c	dota_cache_test.c	/^	char c;$/;"	m	struct:charpack	file:
+c	dota_cache_test.c	/^	int c;$/;"	m	struct:intpack	file:
+callback_getenv	pthread_sqlite.c	/^static int callback_getenv (void * para, int n_column, char ** column_value, char ** column_name )$/;"	f	file:
+callback_getenv_s	pthread_sqlite.c	/^static int callback_getenv_s (void * para, int n_column, char ** column_value, char ** column_name )$/;"	f	file:
+callback_str	pthread_sqlite.c	/^char callback_str[20];$/;"	v
+callback_val	pthread_sqlite.c	/^float callback_val[15];$/;"	v
+center_number	pthread_sms.c	/^	char center_number[16];$/;"	m	struct:From_to_send	file:
+center_phone	data_global.c	/^char center_phone[12] = "13798990731";$/;"	v
+cgi_status	data_global.c	/^char cgi_status;$/;"	v
+cgi_status	pthread_refresh.c	/^	char cgi_status;$/;"	m	struct:shm_addr	file:
+changes	include/sqlite3ext.h	/^  int  (*changes)(sqlite3*);$/;"	m	struct:sqlite3_api_routines
+charpack	dota_cache_test.c	/^struct charpack$/;"	s	file:
+checkEnv	pthread_analysis.c	/^int checkEnv (int sto_no, struct storage_info *p)$/;"	f
+clear_bindings	include/sqlite3ext.h	/^  int (*clear_bindings)(sqlite3_stmt*);$/;"	m	struct:sqlite3_api_routines
+close	include/sqlite3ext.h	/^  int  (*close)(sqlite3*);$/;"	m	struct:sqlite3_api_routines
+collation_needed	include/sqlite3ext.h	/^  int  (*collation_needed)(sqlite3*,void*,void(*)(void*,sqlite3*,int eTextRep,const char*));$/;"	m	struct:sqlite3_api_routines
+collation_needed16	include/sqlite3ext.h	/^  int  (*collation_needed16)(sqlite3*,void*,void(*)(void*,sqlite3*,int eTextRep,const void*));$/;"	m	struct:sqlite3_api_routines
+column_blob	include/sqlite3ext.h	/^  const void * (*column_blob)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+column_bytes	include/sqlite3ext.h	/^  int  (*column_bytes)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+column_bytes16	include/sqlite3ext.h	/^  int  (*column_bytes16)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+column_count	include/sqlite3ext.h	/^  int  (*column_count)(sqlite3_stmt*pStmt);$/;"	m	struct:sqlite3_api_routines
+column_database_name	include/sqlite3ext.h	/^  const char * (*column_database_name)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+column_database_name16	include/sqlite3ext.h	/^  const void * (*column_database_name16)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+column_decltype	include/sqlite3ext.h	/^  const char * (*column_decltype)(sqlite3_stmt*,int i);$/;"	m	struct:sqlite3_api_routines
+column_decltype16	include/sqlite3ext.h	/^  const void * (*column_decltype16)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+column_double	include/sqlite3ext.h	/^  double  (*column_double)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+column_int	include/sqlite3ext.h	/^  int  (*column_int)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+column_int64	include/sqlite3ext.h	/^  sqlite_int64  (*column_int64)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+column_name	include/sqlite3ext.h	/^  const char * (*column_name)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+column_name16	include/sqlite3ext.h	/^  const void * (*column_name16)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+column_origin_name	include/sqlite3ext.h	/^  const char * (*column_origin_name)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+column_origin_name16	include/sqlite3ext.h	/^  const void * (*column_origin_name16)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+column_table_name	include/sqlite3ext.h	/^  const char * (*column_table_name)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+column_table_name16	include/sqlite3ext.h	/^  const void * (*column_table_name16)(sqlite3_stmt*,int);$/;"	m	struct:sqlite3_api_routines
+column_text	include/sqlite3ext.h	/^  const unsigned char * (*column_text)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+column_text16	include/sqlite3ext.h	/^  const void * (*column_text16)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+column_type	include/sqlite3ext.h	/^  int  (*column_type)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+column_value	include/sqlite3ext.h	/^  sqlite3_value* (*column_value)(sqlite3_stmt*,int iCol);$/;"	m	struct:sqlite3_api_routines
+commit_hook	include/sqlite3ext.h	/^  void * (*commit_hook)(sqlite3*,int(*)(void*),void*);$/;"	m	struct:sqlite3_api_routines
+complete	include/sqlite3ext.h	/^  int  (*complete)(const char*sql);$/;"	m	struct:sqlite3_api_routines
+complete16	include/sqlite3ext.h	/^  int  (*complete16)(const void*sql);$/;"	m	struct:sqlite3_api_routines
+cond_analysis	data_global.c	/^pthread_cond_t cond_analysis;$/;"	v
+cond_buzzer	data_global.c	/^pthread_cond_t cond_buzzer;$/;"	v
+cond_camera	data_global.c	/^pthread_cond_t cond_camera;$/;"	v
+cond_client_request	data_global.c	/^pthread_cond_t cond_client_request;$/;"	v
+cond_infrared	data_global.c	/^pthread_cond_t cond_infrared;$/;"	v
+cond_led	data_global.c	/^pthread_cond_t cond_led;$/;"	v
+cond_refresh	data_global.c	/^pthread_cond_t cond_refresh;$/;"	v
+cond_refresh_updata	data_global.c	/^pthread_cond_t cond_refresh_updata;$/;"	v
+cond_sms	data_global.c	/^pthread_cond_t cond_sms;$/;"	v
+cond_sqlite	data_global.c	/^pthread_cond_t cond_sqlite;$/;"	v
+cond_uart_cmd	data_global.c	/^pthread_cond_t cond_uart_cmd;$/;"	v
+context_db_handle	include/sqlite3ext.h	/^  sqlite3 *(*context_db_handle)(sqlite3_context*);$/;"	m	struct:sqlite3_api_routines
+create_collation	include/sqlite3ext.h	/^  int  (*create_collation)(sqlite3*,const char*,int,void*,int(*)(void*,int,const void*,int,const void*));$/;"	m	struct:sqlite3_api_routines
+create_collation16	include/sqlite3ext.h	/^  int  (*create_collation16)(sqlite3*,const void*,int,void*,int(*)(void*,int,const void*,int,const void*));$/;"	m	struct:sqlite3_api_routines
+create_collation_v2	include/sqlite3ext.h	/^  int (*create_collation_v2)(sqlite3*,const char*,int,void*,int(*)(void*,int,const void*,int,const void*),void(*)(void*));$/;"	m	struct:sqlite3_api_routines
+create_function	include/sqlite3ext.h	/^  int  (*create_function)(sqlite3*,const char*,int,int,void*,void (*xFunc)(sqlite3_context*,int,sqlite3_value**),void (*xStep)(sqlite3_context*,int,sqlite3_value**),void (*xFinal)(sqlite3_context*));$/;"	m	struct:sqlite3_api_routines
+create_function16	include/sqlite3ext.h	/^  int  (*create_function16)(sqlite3*,const void*,int,int,void*,void (*xFunc)(sqlite3_context*,int,sqlite3_value**),void (*xStep)(sqlite3_context*,int,sqlite3_value**),void (*xFinal)(sqlite3_context*));$/;"	m	struct:sqlite3_api_routines
+create_module	include/sqlite3ext.h	/^  int (*create_module)(sqlite3*,const char*,const sqlite3_module*,void*);$/;"	m	struct:sqlite3_api_routines
+create_module_v2	include/sqlite3ext.h	/^  int (*create_module_v2)(sqlite3*,const char*,const sqlite3_module*,void*,void (*xDestroy)(void *));$/;"	m	struct:sqlite3_api_routines
+data	dota_cache.h	/^	dota_cache_data data;$/;"	m	struct:_dota_node_
+data	link_list.h	/^	link_datatype data;$/;"	m	struct:_node_
+data	sqlite_link_list.h	/^	struct sqlite_operation data;$/;"	m	struct:_snode_	typeref:struct:_snode_::sqlite_operation
+data_count	include/sqlite3ext.h	/^  int  (*data_count)(sqlite3_stmt*pStmt);$/;"	m	struct:sqlite3_api_routines
+data_link	sqlite_link_list.h	/^	struct env_info_clien_addr data_link;$/;"	m	struct:_snode_	typeref:struct:_snode_::env_info_clien_addr
+db_handle	include/sqlite3ext.h	/^  sqlite3 * (*db_handle)(sqlite3_stmt*);$/;"	m	struct:sqlite3_api_routines
+declare_vtab	include/sqlite3ext.h	/^  int (*declare_vtab)(sqlite3*,const char*);$/;"	m	struct:sqlite3_api_routines
+deleteGoods	pthread_sqlite.c	/^int deleteGoods (int storageNum_t, int goodsKinds_t)$/;"	f
+desc	include/sqlite3.h	/^     unsigned char desc;       \/* True for DESC.  False for ASC. *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_orderby
+desc	sqlite3.h	/^     unsigned char desc;       \/* True for DESC.  False for ASC. *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_orderby
+dev_buzzer_fd	data_global.c	/^int dev_buzzer_fd;$/;"	v
+dev_buzzer_mask	data_global.c	/^unsigned char dev_buzzer_mask;$/;"	v
+dev_camera_fd	data_global.c	/^int dev_camera_fd;$/;"	v
+dev_camera_mask	data_global.c	/^unsigned char dev_camera_mask;$/;"	v
+dev_infrared_fd	data_global.c	/^int dev_infrared_fd;$/;"	v
+dev_infrared_mask	data_global.c	/^unsigned char dev_infrared_mask;$/;"	v
+dev_led_fd	data_global.c	/^int dev_led_fd;$/;"	v
+dev_led_mask	data_global.c	/^unsigned char dev_led_mask;$/;"	v
+dev_sms_fd	data_global.c	/^int dev_sms_fd;$/;"	v
+dev_sms_mask	data_global.c	/^unsigned char dev_sms_mask;$/;"	v
+dev_uart_fd	data_global.c	/^int dev_uart_fd;$/;"	v
+dev_uart_mask	data_global.c	/^unsigned char dev_uart_mask;$/;"	v
+dota_adc	pthread_analysis.c	/^float dota_adc (unsigned int ratio)$/;"	f
+dota_atof	pthread_analysis.c	/^float dota_atof (char unitl)$/;"	f
+dota_atoi	pthread_analysis.c	/^int dota_atoi (const char * cDecade)$/;"	f
+dota_cache_data	dota_cache.h	/^typedef void* dota_cache_data;$/;"	t
+dota_cache_list	dota_cache.h	/^}dota_cache_node, *dota_cache_list;$/;"	t	typeref:struct:_dota_node_
+dota_cache_node	dota_cache.h	/^}dota_cache_node, *dota_cache_list;$/;"	t	typeref:struct:_dota_node_
+double	include/sqlite3.h	263;"	d
+double	include/sqlite3.h	6118;"	d
+double	sqlite3.h	263;"	d
+double	sqlite3.h	6118;"	d
+enable_shared_cache	include/sqlite3ext.h	/^  int  (*enable_shared_cache)(int);$/;"	m	struct:sqlite3_api_routines
+env_info_clien_addr	data_global.h	/^struct env_info_clien_addr$/;"	s
+env_info_clien_addr_s	data_global.c	/^struct env_info_clien_addr env_info_clien_addr_s;$/;"	v	typeref:struct:env_info_clien_addr
+env_operation_mask	data_global.h	/^	int env_operation_mask;$/;"	m	struct:sqlite_operation
+errcode	include/sqlite3ext.h	/^  int  (*errcode)(sqlite3*db);$/;"	m	struct:sqlite3_api_routines
+errmsg	include/sqlite3ext.h	/^  const char * (*errmsg)(sqlite3*);$/;"	m	struct:sqlite3_api_routines
+errmsg16	include/sqlite3ext.h	/^  const void * (*errmsg16)(sqlite3*);$/;"	m	struct:sqlite3_api_routines
+estimatedCost	include/sqlite3.h	/^  double estimatedCost;      \/* Estimated cost of using this index *\/$/;"	m	struct:sqlite3_index_info
+estimatedCost	sqlite3.h	/^  double estimatedCost;      \/* Estimated cost of using this index *\/$/;"	m	struct:sqlite3_index_info
+exec	include/sqlite3ext.h	/^  int  (*exec)(sqlite3*,const char*,sqlite3_callback,void*,char**);$/;"	m	struct:sqlite3_api_routines
+expired	include/sqlite3ext.h	/^  int  (*expired)(sqlite3_stmt*);$/;"	m	struct:sqlite3_api_routines
+extended_result_codes	include/sqlite3ext.h	/^  int (*extended_result_codes)(sqlite3*,int);$/;"	m	struct:sqlite3_api_routines
+fan_status	data_global.h	/^	unsigned char fan_status;$/;"	m	struct:storage_info
+file_control	include/sqlite3ext.h	/^  int (*file_control)(sqlite3*,const char*,int,void*);$/;"	m	struct:sqlite3_api_routines
+finalize	include/sqlite3ext.h	/^  int  (*finalize)(sqlite3_stmt*pStmt);$/;"	m	struct:sqlite3_api_routines
+free	include/sqlite3ext.h	/^  void  (*free)(void*);$/;"	m	struct:sqlite3_api_routines
+free_table	include/sqlite3ext.h	/^  void  (*free_table)(char**result);$/;"	m	struct:sqlite3_api_routines
+getAllGoods	pthread_sqlite.c	/^int getAllGoods (void)$/;"	f
+getCollect_Current_env	pthread_sqlite.c	/^int getCollect_Current_env (int storage_num_t)$/;"	f
+getCollect_env	pthread_sqlite.c	/^int getCollect_env (char itime_t[], int storage_num_t)$/;"	f
+getEnv	pthread_sqlite.c	/^int getEnv (struct env_info_clien_addr *env_info_clien_addr_t, int storageNum_t)$/;"	f
+getEnvMsg	pthread_analysis.c	/^struct getEnvMsg$/;"	s	file:
+getEnvPackage	pthread_analysis.c	/^void getEnvPackage (link_datatype *buf)$/;"	f
+getEnv_select	pthread_sqlite.c	/^int getEnv_select (int storageNum_t, int no)$/;"	f
+getGoods	pthread_sqlite.c	/^int getGoods (int storageNum_t, int goodsKinds_t)$/;"	f
+getGoodsMsg	pthread_analysis.c	/^struct getGoodsMsg$/;"	s	file:
+getGoodsPackage	pthread_analysis.c	/^void getGoodsPackage (link_datatype *buf)$/;"	f
+get_autocommit	include/sqlite3ext.h	/^  int  (*get_autocommit)(sqlite3*);$/;"	m	struct:sqlite3_api_routines
+get_auxdata	include/sqlite3ext.h	/^  void * (*get_auxdata)(sqlite3_context*,int);$/;"	m	struct:sqlite3_api_routines
+get_table	include/sqlite3ext.h	/^  int  (*get_table)(sqlite3*,const char*,char***,int*,int*,char**);$/;"	m	struct:sqlite3_api_routines
+gettid	pthread_sms.c	/^pid_t gettid(void)$/;"	f
+global_recover	include/sqlite3ext.h	/^  int  (*global_recover)(void);$/;"	m	struct:sqlite3_api_routines
+goodsKinds	data_global.c	/^int goodsKinds;$/;"	v
+goodsKinds	sqlite_link_list.h	/^	int goodsKinds;$/;"	m	struct:_snode_
+goods_count	data_global.h	/^	unsigned int goods_count;$/;"	m	struct:storage_goods_info
+goods_info	data_global.h	/^	struct storage_goods_info goods_info[GOODS_NUM];$/;"	m	struct:storage_info	typeref:struct:storage_info::storage_goods_info
+goods_operation_mask	data_global.h	/^	int goods_operation_mask;$/;"	m	struct:sqlite_operation
+goods_type	data_global.h	/^	unsigned char goods_type;$/;"	m	struct:storage_goods_info
+goodsno	pthread_analysis.c	/^	unsigned char goodsno;$/;"	m	struct:getGoodsMsg	file:
+goodsnum	pthread_analysis.c	/^	unsigned char goodsnum;$/;"	m	struct:getGoodsMsg	file:
+gprs_msg	pthread_sms.c	/^}gprs_msg[] = {$/;"	v	typeref:struct:Message
+gprs_serial_init	pthread_sms.c	/^void gprs_serial_init(int fd)$/;"	f
+hum	pthread_analysis.c	/^	unsigned char hum[2];$/;"	m	struct:getEnvMsg	file:
+humMAX	pthread_client_request.c	/^	int humMAX;$/;"	m	struct:setEnv	file:
+humMIN	pthread_client_request.c	/^	int humMIN;$/;"	m	struct:setEnv	file:
+hum_alarm_status	pthread_analysis.c	/^char hum_alarm_status[STORAGE_NUM] = {0};$/;"	v
+humidity	data_global.h	/^	float humidity;$/;"	m	struct:storage_info
+humidityMAX	data_global.h	/^	float humidityMAX;$/;"	m	struct:storage_info
+humidityMIN	data_global.h	/^	float humidityMIN;$/;"	m	struct:storage_info
+iColumn	include/sqlite3.h	/^     int iColumn;              \/* Column number *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_orderby
+iColumn	include/sqlite3.h	/^     int iColumn;              \/* Column on left-hand side of constraint *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+iColumn	sqlite3.h	/^     int iColumn;              \/* Column number *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_orderby
+iColumn	sqlite3.h	/^     int iColumn;              \/* Column on left-hand side of constraint *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+iTermOffset	include/sqlite3.h	/^     int iTermOffset;          \/* Used internally - xBestIndex should ignore *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+iTermOffset	sqlite3.h	/^     int iTermOffset;          \/* Used internally - xBestIndex should ignore *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+iVersion	include/sqlite3.h	/^  int iVersion;            \/* Structure version number (currently 2) *\/$/;"	m	struct:sqlite3_vfs
+iVersion	include/sqlite3.h	/^  int iVersion;$/;"	m	struct:sqlite3_io_methods
+iVersion	include/sqlite3.h	/^  int iVersion;$/;"	m	struct:sqlite3_module
+iVersion	sqlite3.h	/^  int iVersion;            \/* Structure version number (currently 2) *\/$/;"	m	struct:sqlite3_vfs
+iVersion	sqlite3.h	/^  int iVersion;$/;"	m	struct:sqlite3_io_methods
+iVersion	sqlite3.h	/^  int iVersion;$/;"	m	struct:sqlite3_module
+id_analysis	main.c	/^			id_analysis,$/;"	v
+id_buzzer	main.c	/^			id_buzzer,$/;"	v
+id_camera	main.c	/^			id_camera,$/;"	v
+id_client_request	main.c	/^			id_client_request,$/;"	v
+id_infrared	main.c	/^			id_infrared,$/;"	v
+id_led	main.c	/^			id_led,$/;"	v
+id_refresh	main.c	/^			id_refresh;$/;"	v
+id_sms	main.c	/^			id_sms,$/;"	v
+id_sqlite	main.c	/^pthread_t 	id_sqlite,$/;"	v
+id_transfer	main.c	/^			id_transfer,$/;"	v
+id_uart_cmd	main.c	/^			id_uart_cmd,$/;"	v
+idxNum	include/sqlite3.h	/^  int idxNum;                \/* Number used to identify the index *\/$/;"	m	struct:sqlite3_index_info
+idxNum	sqlite3.h	/^  int idxNum;                \/* Number used to identify the index *\/$/;"	m	struct:sqlite3_index_info
+idxStr	include/sqlite3.h	/^  char *idxStr;              \/* String, possibly obtained from sqlite3_malloc *\/$/;"	m	struct:sqlite3_index_info
+idxStr	sqlite3.h	/^  char *idxStr;              \/* String, possibly obtained from sqlite3_malloc *\/$/;"	m	struct:sqlite3_index_info
+ill	pthread_analysis.c	/^	unsigned int ill;$/;"	m	struct:getEnvMsg	file:
+illMAX	pthread_client_request.c	/^	int illMAX;$/;"	m	struct:setEnv	file:
+illMIN	pthread_client_request.c	/^	int illMIN;$/;"	m	struct:setEnv	file:
+ill_alarm_status	pthread_analysis.c	/^char ill_alarm_status[STORAGE_NUM] = {0};$/;"	v
+illumination	data_global.h	/^	float illumination;$/;"	m	struct:storage_info
+illuminationMAX	data_global.h	/^	float illuminationMAX;$/;"	m	struct:storage_info
+illuminationMIN	data_global.h	/^	float illuminationMIN;$/;"	m	struct:storage_info
+info	pthread_sms.c	/^	char info[32];		\/\/信息长度$/;"	m	struct:Message	file:
+init_sem	sem.h	/^int init_sem(int semid, int num, int val)$/;"	f
+insertCollect_env	pthread_sqlite.c	/^int insertCollect_env (struct env_info_clien_addr env_info_clien_addr_t, int storage_num)$/;"	f
+insertGoods	pthread_sqlite.c	/^int insertGoods (struct env_info_clien_addr env_info_clien_addr_t, int storageNum_t, int goodsKinds_t)$/;"	f
+interruptx	include/sqlite3ext.h	/^  void  (*interruptx)(sqlite3*);$/;"	m	struct:sqlite3_api_routines
+intpack	dota_cache_test.c	/^struct intpack$/;"	s	file:
+io	pthread_analysis.c	/^	unsigned char io;$/;"	m	struct:getGoodsMsg	file:
+last_insert_rowid	include/sqlite3ext.h	/^  sqlite_int64  (*last_insert_rowid)(sqlite3*);$/;"	m	struct:sqlite3_api_routines
+led_status	data_global.h	/^	unsigned char led_status;$/;"	m	struct:storage_info
+libversion	include/sqlite3ext.h	/^  const char * (*libversion)(void);$/;"	m	struct:sqlite3_api_routines
+libversion_number	include/sqlite3ext.h	/^  int  (*libversion_number)(void);$/;"	m	struct:sqlite3_api_routines
+limit	include/sqlite3ext.h	/^  int (*limit)(sqlite3*,int,int);$/;"	m	struct:sqlite3_api_routines
+linkHead	link_list.c	/^linklist linkHead, linkTail;$/;"	v
+linkTail	link_list.c	/^linklist linkHead, linkTail;$/;"	v
+link_datatype	link_list.h	/^}link_datatype;$/;"	t	typeref:struct:msg_pack
+linklist	link_list.h	/^}linknode, *linklist;$/;"	t	typeref:struct:_node_
+linknode	link_list.h	/^}linknode, *linklist;$/;"	t	typeref:struct:_node_
+m0_cache_head	data_global.c	/^dota_cache_list m0_cache_head, m0_cache_tail;$/;"	v
+m0_cache_tail	data_global.c	/^dota_cache_list m0_cache_head, m0_cache_tail;$/;"	v
+main	dota_cache_test.c	/^int main ()$/;"	f
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+malloc	include/sqlite3ext.h	/^  void *(*malloc)(int);$/;"	m	struct:sqlite3_api_routines
+memory_highwater	include/sqlite3ext.h	/^  sqlite3_int64 (*memory_highwater)(int);$/;"	m	struct:sqlite3_api_routines
+memory_used	include/sqlite3ext.h	/^  sqlite3_int64 (*memory_used)(void);$/;"	m	struct:sqlite3_api_routines
+mprintf	include/sqlite3ext.h	/^  char * (*mprintf)(const char*,...);$/;"	m	struct:sqlite3_api_routines
+msg	data_global.h	/^struct msg$/;"	s
+msg_pack	link_list.h	/^typedef struct msg_pack$/;"	s
+msg_type	link_list.h	/^	char msg_type;$/;"	m	struct:msg_pack
+msgid	data_global.c	/^int msgid;$/;"	v
+msgtype	data_global.h	/^	long msgtype;$/;"	m	struct:msg
+mutex_alloc	include/sqlite3ext.h	/^  sqlite3_mutex *(*mutex_alloc)(int);$/;"	m	struct:sqlite3_api_routines
+mutex_analysis	data_global.c	/^pthread_mutex_t mutex_analysis;$/;"	v
+mutex_buzzer	data_global.c	/^pthread_mutex_t mutex_buzzer;$/;"	v
+mutex_camera	data_global.c	/^pthread_mutex_t mutex_camera;$/;"	v
+mutex_client_request	data_global.c	/^pthread_mutex_t mutex_client_request;$/;"	v
+mutex_enter	include/sqlite3ext.h	/^  void (*mutex_enter)(sqlite3_mutex*);$/;"	m	struct:sqlite3_api_routines
+mutex_free	include/sqlite3ext.h	/^  void (*mutex_free)(sqlite3_mutex*);$/;"	m	struct:sqlite3_api_routines
+mutex_global	data_global.c	/^pthread_mutex_t mutex_global;$/;"	v
+mutex_infrared	data_global.c	/^pthread_mutex_t mutex_infrared;$/;"	v
+mutex_leave	include/sqlite3ext.h	/^  void (*mutex_leave)(sqlite3_mutex*);$/;"	m	struct:sqlite3_api_routines
+mutex_led	data_global.c	/^pthread_mutex_t mutex_led;$/;"	v
+mutex_linklist	data_global.c	/^pthread_mutex_t mutex_linklist;$/;"	v
+mutex_refresh	data_global.c	/^pthread_mutex_t mutex_refresh;$/;"	v
+mutex_refresh_updata	data_global.c	/^pthread_mutex_t mutex_refresh_updata;$/;"	v
+mutex_slinklist	data_global.c	/^pthread_mutex_t mutex_slinklist;$/;"	v
+mutex_sms	data_global.c	/^pthread_mutex_t mutex_sms;$/;"	v
+mutex_sqlite	data_global.c	/^pthread_mutex_t mutex_sqlite;$/;"	v
+mutex_try	include/sqlite3ext.h	/^  int (*mutex_try)(sqlite3_mutex*);$/;"	m	struct:sqlite3_api_routines
+mutex_uart_cmd	data_global.c	/^pthread_mutex_t mutex_uart_cmd;$/;"	v
+mxPathname	include/sqlite3.h	/^  int mxPathname;          \/* Maximum file pathname length *\/$/;"	m	struct:sqlite3_vfs
+mxPathname	sqlite3.h	/^  int mxPathname;          \/* Maximum file pathname length *\/$/;"	m	struct:sqlite3_vfs
+nConstraint	include/sqlite3.h	/^  int nConstraint;           \/* Number of entries in aConstraint *\/$/;"	m	struct:sqlite3_index_info
+nConstraint	sqlite3.h	/^  int nConstraint;           \/* Number of entries in aConstraint *\/$/;"	m	struct:sqlite3_index_info
+nOrderBy	include/sqlite3.h	/^  int nOrderBy;              \/* Number of terms in the ORDER BY clause *\/$/;"	m	struct:sqlite3_index_info
+nOrderBy	sqlite3.h	/^  int nOrderBy;              \/* Number of terms in the ORDER BY clause *\/$/;"	m	struct:sqlite3_index_info
+nParam	include/sqlite3.h	/^  int nParam;                     \/* Size of array aParam[] *\/$/;"	m	struct:sqlite3_rtree_geometry
+nParam	sqlite3.h	/^  int nParam;                     \/* Size of array aParam[] *\/$/;"	m	struct:sqlite3_rtree_geometry
+nRef	include/sqlite3.h	/^  int nRef;                       \/* NO LONGER USED *\/$/;"	m	struct:sqlite3_vtab
+nRef	sqlite3.h	/^  int nRef;                       \/* NO LONGER USED *\/$/;"	m	struct:sqlite3_vtab
+needToFreeIdxStr	include/sqlite3.h	/^  int needToFreeIdxStr;      \/* Free idxStr using sqlite3_free() if true *\/$/;"	m	struct:sqlite3_index_info
+needToFreeIdxStr	sqlite3.h	/^  int needToFreeIdxStr;      \/* Free idxStr using sqlite3_free() if true *\/$/;"	m	struct:sqlite3_index_info
+next	dota_cache.h	/^	struct _dota_node_ *next;$/;"	m	struct:_dota_node_	typeref:struct:_dota_node_::_dota_node_
+next	link_list.h	/^	struct _node_ *next;$/;"	m	struct:_node_	typeref:struct:_node_::_node_
+next	sqlite_link_list.h	/^	struct _snode_ *next;$/;"	m	struct:_snode_	typeref:struct:_snode_::_snode_
+next_stmt	include/sqlite3ext.h	/^  sqlite3_stmt *(*next_stmt)(sqlite3*,sqlite3_stmt*);$/;"	m	struct:sqlite3_api_routines
+omit	include/sqlite3.h	/^    unsigned char omit;      \/* Do not code a test for this constraint *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint_usage
+omit	sqlite3.h	/^    unsigned char omit;      \/* Do not code a test for this constraint *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint_usage
+op	include/sqlite3.h	/^     unsigned char op;         \/* Constraint operator *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+op	sqlite3.h	/^     unsigned char op;         \/* Constraint operator *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+open	include/sqlite3ext.h	/^  int  (*open)(const char*,sqlite3**);$/;"	m	struct:sqlite3_api_routines
+open16	include/sqlite3ext.h	/^  int  (*open16)(const void*,sqlite3**);$/;"	m	struct:sqlite3_api_routines
+open_v2	include/sqlite3ext.h	/^  int (*open_v2)(const char*,sqlite3**,int,const char*);$/;"	m	struct:sqlite3_api_routines
+orderByConsumed	include/sqlite3.h	/^  int orderByConsumed;       \/* True if output is already ordered *\/$/;"	m	struct:sqlite3_index_info
+orderByConsumed	sqlite3.h	/^  int orderByConsumed;       \/* True if output is already ordered *\/$/;"	m	struct:sqlite3_index_info
+overload_function	include/sqlite3ext.h	/^  int (*overload_function)(sqlite3*, const char *zFuncName, int nArg);$/;"	m	struct:sqlite3_api_routines
+pAppData	include/sqlite3.h	/^  void *pAppData;                \/* Argument to xInit() and xShutdown() *\/$/;"	m	struct:sqlite3_mem_methods
+pAppData	include/sqlite3.h	/^  void *pAppData;          \/* Pointer to application-specific data *\/$/;"	m	struct:sqlite3_vfs
+pAppData	sqlite3.h	/^  void *pAppData;                \/* Argument to xInit() and xShutdown() *\/$/;"	m	struct:sqlite3_mem_methods
+pAppData	sqlite3.h	/^  void *pAppData;          \/* Pointer to application-specific data *\/$/;"	m	struct:sqlite3_vfs
+pArg	include/sqlite3.h	/^  void *pArg;$/;"	m	struct:sqlite3_pcache_methods
+pArg	sqlite3.h	/^  void *pArg;$/;"	m	struct:sqlite3_pcache_methods
+pContext	include/sqlite3.h	/^  void *pContext;                 \/* Copy of pContext passed to s_r_g_c() *\/$/;"	m	struct:sqlite3_rtree_geometry
+pContext	sqlite3.h	/^  void *pContext;                 \/* Copy of pContext passed to s_r_g_c() *\/$/;"	m	struct:sqlite3_rtree_geometry
+pMethods	include/sqlite3.h	/^  const struct sqlite3_io_methods *pMethods;  \/* Methods for an open file *\/$/;"	m	struct:sqlite3_file	typeref:struct:sqlite3_file::sqlite3_io_methods
+pMethods	sqlite3.h	/^  const struct sqlite3_io_methods *pMethods;  \/* Methods for an open file *\/$/;"	m	struct:sqlite3_file	typeref:struct:sqlite3_file::sqlite3_io_methods
+pModule	include/sqlite3.h	/^  const sqlite3_module *pModule;  \/* The module for this virtual table *\/$/;"	m	struct:sqlite3_vtab
+pModule	sqlite3.h	/^  const sqlite3_module *pModule;  \/* The module for this virtual table *\/$/;"	m	struct:sqlite3_vtab
+pNext	include/sqlite3.h	/^  sqlite3_vfs *pNext;      \/* Next registered VFS *\/$/;"	m	struct:sqlite3_vfs
+pNext	sqlite3.h	/^  sqlite3_vfs *pNext;      \/* Next registered VFS *\/$/;"	m	struct:sqlite3_vfs
+pUser	include/sqlite3.h	/^  void *pUser;                    \/* Callback implementation user data *\/$/;"	m	struct:sqlite3_rtree_geometry
+pUser	sqlite3.h	/^  void *pUser;                    \/* Callback implementation user data *\/$/;"	m	struct:sqlite3_rtree_geometry
+pVtab	include/sqlite3.h	/^  sqlite3_vtab *pVtab;      \/* Virtual table of this cursor *\/$/;"	m	struct:sqlite3_vtab_cursor
+pVtab	sqlite3.h	/^  sqlite3_vtab *pVtab;      \/* Virtual table of this cursor *\/$/;"	m	struct:sqlite3_vtab_cursor
+phone_NUM	pthread_sms.c	/^}phone_NUM;$/;"	v	typeref:struct:From_to_send
+prepare	include/sqlite3ext.h	/^  int  (*prepare)(sqlite3*,const char*,int,sqlite3_stmt**,const char**);$/;"	m	struct:sqlite3_api_routines
+prepare16	include/sqlite3ext.h	/^  int  (*prepare16)(sqlite3*,const void*,int,sqlite3_stmt**,const void**);$/;"	m	struct:sqlite3_api_routines
+prepare16_v2	include/sqlite3ext.h	/^  int (*prepare16_v2)(sqlite3*,const void*,int,sqlite3_stmt**,const void**);$/;"	m	struct:sqlite3_api_routines
+prepare_v2	include/sqlite3ext.h	/^  int (*prepare_v2)(sqlite3*,const char*,int,sqlite3_stmt**,const char**);$/;"	m	struct:sqlite3_api_routines
+profile	include/sqlite3ext.h	/^  void * (*profile)(sqlite3*,void(*)(void*,const char*,sqlite_uint64),void*);$/;"	m	struct:sqlite3_api_routines
+progress_handler	include/sqlite3ext.h	/^  void  (*progress_handler)(sqlite3*,int,int(*)(void*),void*);$/;"	m	struct:sqlite3_api_routines
+pthread_analysis	pthread_analysis.c	/^void *pthread_analysis (void *arg)$/;"	f
+pthread_buzzer	pthread_buzzer.c	/^void *pthread_buzzer (void *arg)$/;"	f
+pthread_camera	pthread_camera.c	/^void *pthread_camera (void *arg)$/;"	f
+pthread_client_request	pthread_client_request.c	/^void *pthread_client_request (void *arg)$/;"	f
+pthread_infrared	pthread_infrared.c	/^void *pthread_infrared (void *arg)$/;"	f
+pthread_led	pthread_led.c	/^void *pthread_led (void *arg)$/;"	f
+pthread_refresh	pthread_refresh.c	/^void *pthread_refresh (void *arg)$/;"	f
+pthread_sms	pthread_sms.c	/^void *pthread_sms(void *arg)$/;"	f
+pthread_sqlite	pthread_sqlite.c	/^void *pthread_sqlite (void *arg)$/;"	f
+pthread_transfer	pthread_transfer.c	/^void *pthread_transfer (void *arg)$/;"	f
+pthread_uart_cmd	pthread_uart_cmd.c	/^void *pthread_uart_cmd (void *arg)$/;"	f
+qt_status	data_global.c	/^char qt_status;$/;"	v
+qt_status	pthread_refresh.c	/^	char qt_status;$/;"	m	struct:shm_addr	file:
+randomness	include/sqlite3ext.h	/^  void (*randomness)(int,void*);$/;"	m	struct:sqlite3_api_routines
+realloc	include/sqlite3ext.h	/^  void *(*realloc)(void*,int);$/;"	m	struct:sqlite3_api_routines
+recive_phone	data_global.c	/^char recive_phone[12] = "15910397488";$/;"	v
+reduceGoods	pthread_sqlite.c	/^int reduceGoods (struct env_info_clien_addr env_info_clien_addr_t, int storageNum_t, int goodsKinds_t)$/;"	f
+release_memory	include/sqlite3ext.h	/^  int (*release_memory)(int);$/;"	m	struct:sqlite3_api_routines
+reset	include/sqlite3ext.h	/^  int  (*reset)(sqlite3_stmt*pStmt);$/;"	m	struct:sqlite3_api_routines
+result_blob	include/sqlite3ext.h	/^  void  (*result_blob)(sqlite3_context*,const void*,int,void(*)(void*));$/;"	m	struct:sqlite3_api_routines
+result_double	include/sqlite3ext.h	/^  void  (*result_double)(sqlite3_context*,double);$/;"	m	struct:sqlite3_api_routines
+result_error	include/sqlite3ext.h	/^  void  (*result_error)(sqlite3_context*,const char*,int);$/;"	m	struct:sqlite3_api_routines
+result_error16	include/sqlite3ext.h	/^  void  (*result_error16)(sqlite3_context*,const void*,int);$/;"	m	struct:sqlite3_api_routines
+result_error_code	include/sqlite3ext.h	/^  void (*result_error_code)(sqlite3_context*,int);$/;"	m	struct:sqlite3_api_routines
+result_error_nomem	include/sqlite3ext.h	/^  void (*result_error_nomem)(sqlite3_context*);$/;"	m	struct:sqlite3_api_routines
+result_error_toobig	include/sqlite3ext.h	/^  void (*result_error_toobig)(sqlite3_context*);$/;"	m	struct:sqlite3_api_routines
+result_int	include/sqlite3ext.h	/^  void  (*result_int)(sqlite3_context*,int);$/;"	m	struct:sqlite3_api_routines
+result_int64	include/sqlite3ext.h	/^  void  (*result_int64)(sqlite3_context*,sqlite_int64);$/;"	m	struct:sqlite3_api_routines
+result_null	include/sqlite3ext.h	/^  void  (*result_null)(sqlite3_context*);$/;"	m	struct:sqlite3_api_routines
+result_text	include/sqlite3ext.h	/^  void  (*result_text)(sqlite3_context*,const char*,int,void(*)(void*));$/;"	m	struct:sqlite3_api_routines
+result_text16	include/sqlite3ext.h	/^  void  (*result_text16)(sqlite3_context*,const void*,int,void(*)(void*));$/;"	m	struct:sqlite3_api_routines
+result_text16be	include/sqlite3ext.h	/^  void  (*result_text16be)(sqlite3_context*,const void*,int,void(*)(void*));$/;"	m	struct:sqlite3_api_routines
+result_text16le	include/sqlite3ext.h	/^  void  (*result_text16le)(sqlite3_context*,const void*,int,void(*)(void*));$/;"	m	struct:sqlite3_api_routines
+result_value	include/sqlite3ext.h	/^  void  (*result_value)(sqlite3_context*,sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+result_zeroblob	include/sqlite3ext.h	/^  void (*result_zeroblob)(sqlite3_context*,int);$/;"	m	struct:sqlite3_api_routines
+rollback_hook	include/sqlite3ext.h	/^  void * (*rollback_hook)(sqlite3*,void(*)(void*),void*);$/;"	m	struct:sqlite3_api_routines
+rt_status	pthread_refresh.c	/^	struct env_info_clien_addr rt_status;$/;"	m	struct:shm_addr	typeref:struct:shm_addr::env_info_clien_addr	file:
+samplingTime	data_global.h	/^	char samplingTime[20];$/;"	m	struct:storage_info
+seg_status	data_global.h	/^	unsigned char seg_status;$/;"	m	struct:storage_info
+sem_p	sem.h	/^int sem_p(int semid, int num)$/;"	f
+sem_v	sem.h	/^int sem_v(int semid, int num)$/;"	f
+semid	data_global.c	/^int semid;$/;"	v
+semun	sem.h	/^union semun {$/;"	u
+send	pthread_sms.c	/^int send(int fd,char *cmgf,char *cmgs,char *message)\/\/发送函数，用于AT指令的发送$/;"	f
+sendMsgQueue	data_global.c	/^void sendMsgQueue (long type, unsigned char text)$/;"	f
+send_message	pthread_sms.c	/^int send_message(int dev_fd ,char *info)\/\/发送处理函数，处理字符串$/;"	f
+serial_init	pthread_transfer.c	/^void serial_init(int fd)$/;"	f
+setEnv	pthread_client_request.c	/^struct setEnv$/;"	s	file:
+setEnv	pthread_sqlite.c	/^int setEnv (float val, int dev_no_t, int no)$/;"	f
+setEnv_s	pthread_sqlite.c	/^int setEnv_s (char *val, int no)$/;"	f
+setLimit	main.c	/^void setLimit (int sto_no, float temMAX, float temMIN, float humMAX, float humMIN, float illMAX, float illMIN)$/;"	f
+set_authorizer	include/sqlite3ext.h	/^  int  (*set_authorizer)(sqlite3*,int(*)(void*,int,const char*,const char*,const char*,const char*),void*);$/;"	m	struct:sqlite3_api_routines
+set_auxdata	include/sqlite3ext.h	/^  void  (*set_auxdata)(sqlite3_context*,int,void*,void (*)(void*));$/;"	m	struct:sqlite3_api_routines
+shm_addr	pthread_refresh.c	/^struct shm_addr$/;"	s	file:
+shmid	data_global.c	/^int shmid;$/;"	v
+size	pthread_sms.c	/^	char size[4];		\/\/消息长度$/;"	m	struct:Message	file:
+size_tal	pthread_sms.c	/^	char size_tal[16];	\/\/指令$/;"	m	struct:Message	file:
+sleep	include/sqlite3ext.h	/^  int (*sleep)(int);$/;"	m	struct:sqlite3_api_routines
+slinkHead	data_global.c	/^slinklist slinkHead, slinkTail;$/;"	v
+slinkTail	data_global.c	/^slinklist slinkHead, slinkTail;$/;"	v
+slinklist	sqlite_link_list.h	/^}slinknode, *slinklist;$/;"	t	typeref:struct:_snode_
+slinknode	sqlite_link_list.h	/^}slinknode, *slinklist;$/;"	t	typeref:struct:_snode_
+snprintf	include/sqlite3ext.h	/^  char * (*snprintf)(int,char*,const char*,...);$/;"	m	struct:sqlite3_api_routines
+soft_heap_limit	include/sqlite3ext.h	/^  void (*soft_heap_limit)(int);$/;"	m	struct:sqlite3_api_routines
+sql	include/sqlite3ext.h	/^  const char *(*sql)(sqlite3_stmt*);$/;"	m	struct:sqlite3_api_routines
+sqlite3	include/sqlite3.h	/^typedef struct sqlite3 sqlite3;$/;"	t	typeref:struct:sqlite3
+sqlite3	sqlite3.h	/^typedef struct sqlite3 sqlite3;$/;"	t	typeref:struct:sqlite3
+sqlite3_aggregate_context	include/sqlite3ext.h	208;"	d
+sqlite3_aggregate_count	include/sqlite3ext.h	210;"	d
+sqlite3_api_routines	include/sqlite3ext.h	/^struct sqlite3_api_routines {$/;"	s
+sqlite3_api_routines	include/sqlite3ext.h	/^typedef struct sqlite3_api_routines sqlite3_api_routines;$/;"	t	typeref:struct:sqlite3_api_routines
+sqlite3_backup	include/sqlite3.h	/^typedef struct sqlite3_backup sqlite3_backup;$/;"	t	typeref:struct:sqlite3_backup
+sqlite3_backup	sqlite3.h	/^typedef struct sqlite3_backup sqlite3_backup;$/;"	t	typeref:struct:sqlite3_backup
+sqlite3_bind_blob	include/sqlite3ext.h	212;"	d
+sqlite3_bind_double	include/sqlite3ext.h	213;"	d
+sqlite3_bind_int	include/sqlite3ext.h	214;"	d
+sqlite3_bind_int64	include/sqlite3ext.h	215;"	d
+sqlite3_bind_null	include/sqlite3ext.h	216;"	d
+sqlite3_bind_parameter_count	include/sqlite3ext.h	217;"	d
+sqlite3_bind_parameter_index	include/sqlite3ext.h	218;"	d
+sqlite3_bind_parameter_name	include/sqlite3ext.h	219;"	d
+sqlite3_bind_text	include/sqlite3ext.h	220;"	d
+sqlite3_bind_text16	include/sqlite3ext.h	221;"	d
+sqlite3_bind_value	include/sqlite3ext.h	222;"	d
+sqlite3_bind_zeroblob	include/sqlite3ext.h	338;"	d
+sqlite3_blob	include/sqlite3.h	/^typedef struct sqlite3_blob sqlite3_blob;$/;"	t	typeref:struct:sqlite3_blob
+sqlite3_blob	sqlite3.h	/^typedef struct sqlite3_blob sqlite3_blob;$/;"	t	typeref:struct:sqlite3_blob
+sqlite3_blob_bytes	include/sqlite3ext.h	339;"	d
+sqlite3_blob_close	include/sqlite3ext.h	340;"	d
+sqlite3_blob_open	include/sqlite3ext.h	341;"	d
+sqlite3_blob_read	include/sqlite3ext.h	342;"	d
+sqlite3_blob_write	include/sqlite3ext.h	343;"	d
+sqlite3_busy_handler	include/sqlite3ext.h	223;"	d
+sqlite3_busy_timeout	include/sqlite3ext.h	224;"	d
+sqlite3_callback	include/sqlite3.h	/^typedef int (*sqlite3_callback)(void*,int,char**, char**);$/;"	t
+sqlite3_callback	sqlite3.h	/^typedef int (*sqlite3_callback)(void*,int,char**, char**);$/;"	t
+sqlite3_changes	include/sqlite3ext.h	225;"	d
+sqlite3_clear_bindings	include/sqlite3ext.h	337;"	d
+sqlite3_close	include/sqlite3ext.h	226;"	d
+sqlite3_collation_needed	include/sqlite3ext.h	227;"	d
+sqlite3_collation_needed16	include/sqlite3ext.h	228;"	d
+sqlite3_column_blob	include/sqlite3ext.h	229;"	d
+sqlite3_column_bytes	include/sqlite3ext.h	230;"	d
+sqlite3_column_bytes16	include/sqlite3ext.h	231;"	d
+sqlite3_column_count	include/sqlite3ext.h	232;"	d
+sqlite3_column_database_name	include/sqlite3ext.h	233;"	d
+sqlite3_column_database_name16	include/sqlite3ext.h	234;"	d
+sqlite3_column_decltype	include/sqlite3ext.h	235;"	d
+sqlite3_column_decltype16	include/sqlite3ext.h	236;"	d
+sqlite3_column_double	include/sqlite3ext.h	237;"	d
+sqlite3_column_int	include/sqlite3ext.h	238;"	d
+sqlite3_column_int64	include/sqlite3ext.h	239;"	d
+sqlite3_column_name	include/sqlite3ext.h	240;"	d
+sqlite3_column_name16	include/sqlite3ext.h	241;"	d
+sqlite3_column_origin_name	include/sqlite3ext.h	242;"	d
+sqlite3_column_origin_name16	include/sqlite3ext.h	243;"	d
+sqlite3_column_table_name	include/sqlite3ext.h	244;"	d
+sqlite3_column_table_name16	include/sqlite3ext.h	245;"	d
+sqlite3_column_text	include/sqlite3ext.h	246;"	d
+sqlite3_column_text16	include/sqlite3ext.h	247;"	d
+sqlite3_column_type	include/sqlite3ext.h	248;"	d
+sqlite3_column_value	include/sqlite3ext.h	249;"	d
+sqlite3_commit_hook	include/sqlite3ext.h	250;"	d
+sqlite3_complete	include/sqlite3ext.h	251;"	d
+sqlite3_complete16	include/sqlite3ext.h	252;"	d
+sqlite3_context	include/sqlite3.h	/^typedef struct sqlite3_context sqlite3_context;$/;"	t	typeref:struct:sqlite3_context
+sqlite3_context	sqlite3.h	/^typedef struct sqlite3_context sqlite3_context;$/;"	t	typeref:struct:sqlite3_context
+sqlite3_context_db_handle	include/sqlite3ext.h	367;"	d
+sqlite3_create_collation	include/sqlite3ext.h	253;"	d
+sqlite3_create_collation16	include/sqlite3ext.h	254;"	d
+sqlite3_create_collation_v2	include/sqlite3ext.h	344;"	d
+sqlite3_create_function	include/sqlite3ext.h	255;"	d
+sqlite3_create_function16	include/sqlite3ext.h	256;"	d
+sqlite3_create_module	include/sqlite3ext.h	257;"	d
+sqlite3_create_module_v2	include/sqlite3ext.h	258;"	d
+sqlite3_data_count	include/sqlite3ext.h	259;"	d
+sqlite3_db_handle	include/sqlite3ext.h	260;"	d
+sqlite3_declare_vtab	include/sqlite3ext.h	261;"	d
+sqlite3_destructor_type	include/sqlite3.h	/^typedef void (*sqlite3_destructor_type)(void*);$/;"	t
+sqlite3_destructor_type	sqlite3.h	/^typedef void (*sqlite3_destructor_type)(void*);$/;"	t
+sqlite3_enable_shared_cache	include/sqlite3ext.h	262;"	d
+sqlite3_errcode	include/sqlite3ext.h	263;"	d
+sqlite3_errmsg	include/sqlite3ext.h	264;"	d
+sqlite3_errmsg16	include/sqlite3ext.h	265;"	d
+sqlite3_exec	include/sqlite3ext.h	266;"	d
+sqlite3_expired	include/sqlite3ext.h	268;"	d
+sqlite3_extended_result_codes	include/sqlite3ext.h	368;"	d
+sqlite3_file	include/sqlite3.h	/^struct sqlite3_file {$/;"	s
+sqlite3_file	include/sqlite3.h	/^typedef struct sqlite3_file sqlite3_file;$/;"	t	typeref:struct:sqlite3_file
+sqlite3_file	sqlite3.h	/^struct sqlite3_file {$/;"	s
+sqlite3_file	sqlite3.h	/^typedef struct sqlite3_file sqlite3_file;$/;"	t	typeref:struct:sqlite3_file
+sqlite3_file_control	include/sqlite3ext.h	345;"	d
+sqlite3_finalize	include/sqlite3ext.h	270;"	d
+sqlite3_free	include/sqlite3ext.h	271;"	d
+sqlite3_free_table	include/sqlite3ext.h	272;"	d
+sqlite3_get_autocommit	include/sqlite3ext.h	273;"	d
+sqlite3_get_auxdata	include/sqlite3ext.h	274;"	d
+sqlite3_get_table	include/sqlite3ext.h	275;"	d
+sqlite3_global_recover	include/sqlite3ext.h	277;"	d
+sqlite3_index_constraint	include/sqlite3.h	/^  struct sqlite3_index_constraint {$/;"	s	struct:sqlite3_index_info
+sqlite3_index_constraint	sqlite3.h	/^  struct sqlite3_index_constraint {$/;"	s	struct:sqlite3_index_info
+sqlite3_index_constraint_usage	include/sqlite3.h	/^  struct sqlite3_index_constraint_usage {$/;"	s	struct:sqlite3_index_info
+sqlite3_index_constraint_usage	sqlite3.h	/^  struct sqlite3_index_constraint_usage {$/;"	s	struct:sqlite3_index_info
+sqlite3_index_info	include/sqlite3.h	/^struct sqlite3_index_info {$/;"	s
+sqlite3_index_info	include/sqlite3.h	/^typedef struct sqlite3_index_info sqlite3_index_info;$/;"	t	typeref:struct:sqlite3_index_info
+sqlite3_index_info	sqlite3.h	/^struct sqlite3_index_info {$/;"	s
+sqlite3_index_info	sqlite3.h	/^typedef struct sqlite3_index_info sqlite3_index_info;$/;"	t	typeref:struct:sqlite3_index_info
+sqlite3_index_orderby	include/sqlite3.h	/^  struct sqlite3_index_orderby {$/;"	s	struct:sqlite3_index_info
+sqlite3_index_orderby	sqlite3.h	/^  struct sqlite3_index_orderby {$/;"	s	struct:sqlite3_index_info
+sqlite3_int64	include/sqlite3.h	/^typedef sqlite_int64 sqlite3_int64;$/;"	t
+sqlite3_int64	sqlite3.h	/^typedef sqlite_int64 sqlite3_int64;$/;"	t
+sqlite3_interrupt	include/sqlite3ext.h	279;"	d
+sqlite3_io_methods	include/sqlite3.h	/^struct sqlite3_io_methods {$/;"	s
+sqlite3_io_methods	include/sqlite3.h	/^typedef struct sqlite3_io_methods sqlite3_io_methods;$/;"	t	typeref:struct:sqlite3_io_methods
+sqlite3_io_methods	sqlite3.h	/^struct sqlite3_io_methods {$/;"	s
+sqlite3_io_methods	sqlite3.h	/^typedef struct sqlite3_io_methods sqlite3_io_methods;$/;"	t	typeref:struct:sqlite3_io_methods
+sqlite3_last_insert_rowid	include/sqlite3ext.h	280;"	d
+sqlite3_libversion	include/sqlite3ext.h	281;"	d
+sqlite3_libversion_number	include/sqlite3ext.h	282;"	d
+sqlite3_limit	include/sqlite3ext.h	369;"	d
+sqlite3_malloc	include/sqlite3ext.h	283;"	d
+sqlite3_mem_methods	include/sqlite3.h	/^struct sqlite3_mem_methods {$/;"	s
+sqlite3_mem_methods	include/sqlite3.h	/^typedef struct sqlite3_mem_methods sqlite3_mem_methods;$/;"	t	typeref:struct:sqlite3_mem_methods
+sqlite3_mem_methods	sqlite3.h	/^struct sqlite3_mem_methods {$/;"	s
+sqlite3_mem_methods	sqlite3.h	/^typedef struct sqlite3_mem_methods sqlite3_mem_methods;$/;"	t	typeref:struct:sqlite3_mem_methods
+sqlite3_memory_highwater	include/sqlite3ext.h	346;"	d
+sqlite3_memory_used	include/sqlite3ext.h	347;"	d
+sqlite3_module	include/sqlite3.h	/^struct sqlite3_module {$/;"	s
+sqlite3_module	include/sqlite3.h	/^typedef struct sqlite3_module sqlite3_module;$/;"	t	typeref:struct:sqlite3_module
+sqlite3_module	sqlite3.h	/^struct sqlite3_module {$/;"	s
+sqlite3_module	sqlite3.h	/^typedef struct sqlite3_module sqlite3_module;$/;"	t	typeref:struct:sqlite3_module
+sqlite3_mprintf	include/sqlite3ext.h	284;"	d
+sqlite3_mutex	include/sqlite3.h	/^typedef struct sqlite3_mutex sqlite3_mutex;$/;"	t	typeref:struct:sqlite3_mutex
+sqlite3_mutex	sqlite3.h	/^typedef struct sqlite3_mutex sqlite3_mutex;$/;"	t	typeref:struct:sqlite3_mutex
+sqlite3_mutex_alloc	include/sqlite3ext.h	348;"	d
+sqlite3_mutex_enter	include/sqlite3ext.h	349;"	d
+sqlite3_mutex_free	include/sqlite3ext.h	350;"	d
+sqlite3_mutex_leave	include/sqlite3ext.h	351;"	d
+sqlite3_mutex_methods	include/sqlite3.h	/^struct sqlite3_mutex_methods {$/;"	s
+sqlite3_mutex_methods	include/sqlite3.h	/^typedef struct sqlite3_mutex_methods sqlite3_mutex_methods;$/;"	t	typeref:struct:sqlite3_mutex_methods
+sqlite3_mutex_methods	sqlite3.h	/^struct sqlite3_mutex_methods {$/;"	s
+sqlite3_mutex_methods	sqlite3.h	/^typedef struct sqlite3_mutex_methods sqlite3_mutex_methods;$/;"	t	typeref:struct:sqlite3_mutex_methods
+sqlite3_mutex_try	include/sqlite3ext.h	352;"	d
+sqlite3_next_stmt	include/sqlite3ext.h	370;"	d
+sqlite3_open	include/sqlite3ext.h	285;"	d
+sqlite3_open16	include/sqlite3ext.h	286;"	d
+sqlite3_open_v2	include/sqlite3ext.h	353;"	d
+sqlite3_overload_function	include/sqlite3ext.h	334;"	d
+sqlite3_pcache	include/sqlite3.h	/^typedef struct sqlite3_pcache sqlite3_pcache;$/;"	t	typeref:struct:sqlite3_pcache
+sqlite3_pcache	sqlite3.h	/^typedef struct sqlite3_pcache sqlite3_pcache;$/;"	t	typeref:struct:sqlite3_pcache
+sqlite3_pcache_methods	include/sqlite3.h	/^struct sqlite3_pcache_methods {$/;"	s
+sqlite3_pcache_methods	include/sqlite3.h	/^typedef struct sqlite3_pcache_methods sqlite3_pcache_methods;$/;"	t	typeref:struct:sqlite3_pcache_methods
+sqlite3_pcache_methods	sqlite3.h	/^struct sqlite3_pcache_methods {$/;"	s
+sqlite3_pcache_methods	sqlite3.h	/^typedef struct sqlite3_pcache_methods sqlite3_pcache_methods;$/;"	t	typeref:struct:sqlite3_pcache_methods
+sqlite3_prepare	include/sqlite3ext.h	287;"	d
+sqlite3_prepare16	include/sqlite3ext.h	288;"	d
+sqlite3_prepare16_v2	include/sqlite3ext.h	290;"	d
+sqlite3_prepare16_v2	include/sqlite3ext.h	336;"	d
+sqlite3_prepare_v2	include/sqlite3ext.h	289;"	d
+sqlite3_prepare_v2	include/sqlite3ext.h	335;"	d
+sqlite3_profile	include/sqlite3ext.h	291;"	d
+sqlite3_progress_handler	include/sqlite3ext.h	292;"	d
+sqlite3_randomness	include/sqlite3ext.h	366;"	d
+sqlite3_realloc	include/sqlite3ext.h	293;"	d
+sqlite3_release_memory	include/sqlite3ext.h	354;"	d
+sqlite3_reset	include/sqlite3ext.h	294;"	d
+sqlite3_result_blob	include/sqlite3ext.h	295;"	d
+sqlite3_result_double	include/sqlite3ext.h	296;"	d
+sqlite3_result_error	include/sqlite3ext.h	297;"	d
+sqlite3_result_error16	include/sqlite3ext.h	298;"	d
+sqlite3_result_error_code	include/sqlite3ext.h	364;"	d
+sqlite3_result_error_nomem	include/sqlite3ext.h	355;"	d
+sqlite3_result_error_toobig	include/sqlite3ext.h	356;"	d
+sqlite3_result_int	include/sqlite3ext.h	299;"	d
+sqlite3_result_int64	include/sqlite3ext.h	300;"	d
+sqlite3_result_null	include/sqlite3ext.h	301;"	d
+sqlite3_result_text	include/sqlite3ext.h	302;"	d
+sqlite3_result_text16	include/sqlite3ext.h	303;"	d
+sqlite3_result_text16be	include/sqlite3ext.h	304;"	d
+sqlite3_result_text16le	include/sqlite3ext.h	305;"	d
+sqlite3_result_value	include/sqlite3ext.h	306;"	d
+sqlite3_result_zeroblob	include/sqlite3ext.h	363;"	d
+sqlite3_rollback_hook	include/sqlite3ext.h	307;"	d
+sqlite3_rtree_geometry	include/sqlite3.h	/^struct sqlite3_rtree_geometry {$/;"	s
+sqlite3_rtree_geometry	include/sqlite3.h	/^typedef struct sqlite3_rtree_geometry sqlite3_rtree_geometry;$/;"	t	typeref:struct:sqlite3_rtree_geometry
+sqlite3_rtree_geometry	sqlite3.h	/^struct sqlite3_rtree_geometry {$/;"	s
+sqlite3_rtree_geometry	sqlite3.h	/^typedef struct sqlite3_rtree_geometry sqlite3_rtree_geometry;$/;"	t	typeref:struct:sqlite3_rtree_geometry
+sqlite3_set_authorizer	include/sqlite3ext.h	308;"	d
+sqlite3_set_auxdata	include/sqlite3ext.h	309;"	d
+sqlite3_sleep	include/sqlite3ext.h	357;"	d
+sqlite3_snprintf	include/sqlite3ext.h	310;"	d
+sqlite3_soft_heap_limit	include/sqlite3ext.h	358;"	d
+sqlite3_sql	include/sqlite3ext.h	371;"	d
+sqlite3_status	include/sqlite3ext.h	372;"	d
+sqlite3_step	include/sqlite3ext.h	311;"	d
+sqlite3_stmt	include/sqlite3.h	/^typedef struct sqlite3_stmt sqlite3_stmt;$/;"	t	typeref:struct:sqlite3_stmt
+sqlite3_stmt	sqlite3.h	/^typedef struct sqlite3_stmt sqlite3_stmt;$/;"	t	typeref:struct:sqlite3_stmt
+sqlite3_table_column_metadata	include/sqlite3ext.h	312;"	d
+sqlite3_temp_directory	include/sqlite3.h	/^SQLITE_API SQLITE_EXTERN char *sqlite3_temp_directory;$/;"	v
+sqlite3_temp_directory	sqlite3.h	/^SQLITE_API SQLITE_EXTERN char *sqlite3_temp_directory;$/;"	v
+sqlite3_test_control	include/sqlite3ext.h	365;"	d
+sqlite3_thread_cleanup	include/sqlite3ext.h	313;"	d
+sqlite3_threadsafe	include/sqlite3ext.h	362;"	d
+sqlite3_total_changes	include/sqlite3ext.h	314;"	d
+sqlite3_trace	include/sqlite3ext.h	315;"	d
+sqlite3_transfer_bindings	include/sqlite3ext.h	317;"	d
+sqlite3_uint64	include/sqlite3.h	/^typedef sqlite_uint64 sqlite3_uint64;$/;"	t
+sqlite3_uint64	sqlite3.h	/^typedef sqlite_uint64 sqlite3_uint64;$/;"	t
+sqlite3_update_hook	include/sqlite3ext.h	319;"	d
+sqlite3_user_data	include/sqlite3ext.h	320;"	d
+sqlite3_value	include/sqlite3.h	/^typedef struct Mem sqlite3_value;$/;"	t	typeref:struct:Mem
+sqlite3_value	sqlite3.h	/^typedef struct Mem sqlite3_value;$/;"	t	typeref:struct:Mem
+sqlite3_value_blob	include/sqlite3ext.h	321;"	d
+sqlite3_value_bytes	include/sqlite3ext.h	322;"	d
+sqlite3_value_bytes16	include/sqlite3ext.h	323;"	d
+sqlite3_value_double	include/sqlite3ext.h	324;"	d
+sqlite3_value_int	include/sqlite3ext.h	325;"	d
+sqlite3_value_int64	include/sqlite3ext.h	326;"	d
+sqlite3_value_numeric_type	include/sqlite3ext.h	327;"	d
+sqlite3_value_text	include/sqlite3ext.h	328;"	d
+sqlite3_value_text16	include/sqlite3ext.h	329;"	d
+sqlite3_value_text16be	include/sqlite3ext.h	330;"	d
+sqlite3_value_text16le	include/sqlite3ext.h	331;"	d
+sqlite3_value_type	include/sqlite3ext.h	332;"	d
+sqlite3_version	include/sqlite3.h	/^SQLITE_API SQLITE_EXTERN const char sqlite3_version[];$/;"	v
+sqlite3_version	sqlite3.h	/^SQLITE_API SQLITE_EXTERN const char sqlite3_version[];$/;"	v
+sqlite3_vfs	include/sqlite3.h	/^struct sqlite3_vfs {$/;"	s
+sqlite3_vfs	include/sqlite3.h	/^typedef struct sqlite3_vfs sqlite3_vfs;$/;"	t	typeref:struct:sqlite3_vfs
+sqlite3_vfs	sqlite3.h	/^struct sqlite3_vfs {$/;"	s
+sqlite3_vfs	sqlite3.h	/^typedef struct sqlite3_vfs sqlite3_vfs;$/;"	t	typeref:struct:sqlite3_vfs
+sqlite3_vfs_find	include/sqlite3ext.h	359;"	d
+sqlite3_vfs_register	include/sqlite3ext.h	360;"	d
+sqlite3_vfs_unregister	include/sqlite3ext.h	361;"	d
+sqlite3_vmprintf	include/sqlite3ext.h	333;"	d
+sqlite3_vtab	include/sqlite3.h	/^struct sqlite3_vtab {$/;"	s
+sqlite3_vtab	include/sqlite3.h	/^typedef struct sqlite3_vtab sqlite3_vtab;$/;"	t	typeref:struct:sqlite3_vtab
+sqlite3_vtab	sqlite3.h	/^struct sqlite3_vtab {$/;"	s
+sqlite3_vtab	sqlite3.h	/^typedef struct sqlite3_vtab sqlite3_vtab;$/;"	t	typeref:struct:sqlite3_vtab
+sqlite3_vtab_cursor	include/sqlite3.h	/^struct sqlite3_vtab_cursor {$/;"	s
+sqlite3_vtab_cursor	include/sqlite3.h	/^typedef struct sqlite3_vtab_cursor sqlite3_vtab_cursor;$/;"	t	typeref:struct:sqlite3_vtab_cursor
+sqlite3_vtab_cursor	sqlite3.h	/^struct sqlite3_vtab_cursor {$/;"	s
+sqlite3_vtab_cursor	sqlite3.h	/^typedef struct sqlite3_vtab_cursor sqlite3_vtab_cursor;$/;"	t	typeref:struct:sqlite3_vtab_cursor
+sqlite_CreateEmptyLinklist	sqlite_link_list.c	/^slinklist sqlite_CreateEmptyLinklist ()$/;"	f
+sqlite_EmptyLinklist	sqlite_link_list.c	/^int sqlite_EmptyLinklist (slinklist h)$/;"	f
+sqlite_GetLinknode	sqlite_link_list.c	/^slinklist sqlite_GetLinknode (slinklist h)$/;"	f
+sqlite_InsertLinknode	sqlite_link_list.c	/^int sqlite_InsertLinknode (int operation, struct env_info_clien_addr y, $/;"	f
+sqlite_int64	include/sqlite3.h	/^  typedef SQLITE_INT64_TYPE sqlite_int64;$/;"	t
+sqlite_int64	include/sqlite3.h	/^  typedef __int64 sqlite_int64;$/;"	t
+sqlite_int64	include/sqlite3.h	/^  typedef long long int sqlite_int64;$/;"	t
+sqlite_int64	sqlite3.h	/^  typedef SQLITE_INT64_TYPE sqlite_int64;$/;"	t
+sqlite_int64	sqlite3.h	/^  typedef __int64 sqlite_int64;$/;"	t
+sqlite_int64	sqlite3.h	/^  typedef long long int sqlite_int64;$/;"	t
+sqlite_operation	data_global.h	/^struct sqlite_operation$/;"	s
+sqlite_task	pthread_sqlite.c	/^void sqlite_task (struct env_info_clien_addr env_info_clien_addr_t, struct sqlite_operation sqlite_operation_t, int storageNum_t, int goodsKinds_t)$/;"	f
+sqlite_uint64	include/sqlite3.h	/^  typedef unsigned SQLITE_INT64_TYPE sqlite_uint64;$/;"	t
+sqlite_uint64	include/sqlite3.h	/^  typedef unsigned __int64 sqlite_uint64;$/;"	t
+sqlite_uint64	include/sqlite3.h	/^  typedef unsigned long long int sqlite_uint64;$/;"	t
+sqlite_uint64	sqlite3.h	/^  typedef unsigned SQLITE_INT64_TYPE sqlite_uint64;$/;"	t
+sqlite_uint64	sqlite3.h	/^  typedef unsigned __int64 sqlite_uint64;$/;"	t
+sqlite_uint64	sqlite3.h	/^  typedef unsigned long long int sqlite_uint64;$/;"	t
+status	include/sqlite3ext.h	/^  int (*status)(int,int*,int*,int);$/;"	m	struct:sqlite3_api_routines
+step	include/sqlite3ext.h	/^  int  (*step)(sqlite3_stmt*);$/;"	m	struct:sqlite3_api_routines
+sto_no	pthread_analysis.c	/^	unsigned char sto_no;$/;"	m	struct:getEnvMsg	file:
+sto_no	pthread_analysis.c	/^	unsigned char sto_no;$/;"	m	struct:getGoodsMsg	file:
+storageAllgood	pthread_analysis.c	/^int storageAllgood (int sto_no)$/;"	f
+storageNum	data_global.c	/^int storageNum;$/;"	v
+storageNum	sqlite_link_list.h	/^	int storageNum;$/;"	m	struct:_snode_
+storage_RT	data_global.c	/^struct storage_info storage_RT[STORAGE_NUM];$/;"	v	typeref:struct:storage_info
+storage_goods_info	data_global.h	/^struct storage_goods_info$/;"	s
+storage_info	data_global.h	/^struct storage_info$/;"	s
+storage_no	data_global.h	/^	struct storage_info storage_no[STORAGE_NUM];	$/;"	m	struct:env_info_clien_addr	typeref:struct:env_info_clien_addr::storage_info
+storage_status	data_global.h	/^	unsigned char storage_status;				\/\/ 0:open 1:close$/;"	m	struct:storage_info
+szOsFile	include/sqlite3.h	/^  int szOsFile;            \/* Size of subclassed sqlite3_file *\/$/;"	m	struct:sqlite3_vfs
+szOsFile	sqlite3.h	/^  int szOsFile;            \/* Size of subclassed sqlite3_file *\/$/;"	m	struct:sqlite3_vfs
+table_column_metadata	include/sqlite3ext.h	/^  int  (*table_column_metadata)(sqlite3*,const char*,const char*,const char*,char const**,char const**,int*,int*,int*);$/;"	m	struct:sqlite3_api_routines
+table_operation_mask	data_global.h	/^	int table_operation_mask;$/;"	m	struct:sqlite_operation
+table_select_mask	data_global.h	/^	int table_select_mask;$/;"	m	struct:sqlite_operation
+tem	pthread_analysis.c	/^	unsigned char tem[2];$/;"	m	struct:getEnvMsg	file:
+temMAX	pthread_client_request.c	/^	int temMAX;$/;"	m	struct:setEnv	file:
+temMIN	pthread_client_request.c	/^	int temMIN;$/;"	m	struct:setEnv	file:
+tem_alarm_status	pthread_analysis.c	/^char tem_alarm_status[STORAGE_NUM] = {0};$/;"	v
+temperature	data_global.h	/^	float temperature;$/;"	m	struct:storage_info
+temperatureMAX	data_global.h	/^	float temperatureMAX;$/;"	m	struct:storage_info
+temperatureMIN	data_global.h	/^	float temperatureMIN;$/;"	m	struct:storage_info
+test_control	include/sqlite3ext.h	/^  int (*test_control)(int, ...);$/;"	m	struct:sqlite3_api_routines
+text	data_global.h	/^	unsigned char text[QUEUE_MSG_LEN];$/;"	m	struct:msg
+text	link_list.h	/^	char text[27];$/;"	m	struct:msg_pack
+thread_cleanup	include/sqlite3ext.h	/^  void  (*thread_cleanup)(void);$/;"	m	struct:sqlite3_api_routines
+to_number	pthread_sms.c	/^	char to_number[16];$/;"	m	struct:From_to_send	file:
+total_changes	include/sqlite3ext.h	/^  int  (*total_changes)(sqlite3*);$/;"	m	struct:sqlite3_api_routines
+trace	include/sqlite3ext.h	/^  void * (*trace)(sqlite3*,void(*xTrace)(void*,const char*),void*);$/;"	m	struct:sqlite3_api_routines
+transfer_bindings	include/sqlite3ext.h	/^  int  (*transfer_bindings)(sqlite3_stmt*,sqlite3_stmt*);$/;"	m	struct:sqlite3_api_routines
+type	data_global.h	/^	long type;$/;"	m	struct:msg
+updateEnv	pthread_sqlite.c	/^int updateEnv (struct env_info_clien_addr env_info_clien_addr_t, int storageNum_t)$/;"	f
+update_hook	include/sqlite3ext.h	/^  void * (*update_hook)(sqlite3*,void(*)(void*,int ,char const*,char const*,sqlite_int64),void*);$/;"	m	struct:sqlite3_api_routines
+usable	include/sqlite3.h	/^     unsigned char usable;     \/* True if this constraint is usable *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+usable	sqlite3.h	/^     unsigned char usable;     \/* True if this constraint is usable *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+user_data	include/sqlite3ext.h	/^  void * (*user_data)(sqlite3_context*);$/;"	m	struct:sqlite3_api_routines
+val	sem.h	/^	int              val;    \/* Value for SETVAL *\/$/;"	m	union:semun
+value_blob	include/sqlite3ext.h	/^  const void * (*value_blob)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_bytes	include/sqlite3ext.h	/^  int  (*value_bytes)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_bytes16	include/sqlite3ext.h	/^  int  (*value_bytes16)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_double	include/sqlite3ext.h	/^  double  (*value_double)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_int	include/sqlite3ext.h	/^  int  (*value_int)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_int64	include/sqlite3ext.h	/^  sqlite_int64  (*value_int64)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_numeric_type	include/sqlite3ext.h	/^  int  (*value_numeric_type)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_text	include/sqlite3ext.h	/^  const unsigned char * (*value_text)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_text16	include/sqlite3ext.h	/^  const void * (*value_text16)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_text16be	include/sqlite3ext.h	/^  const void * (*value_text16be)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_text16le	include/sqlite3ext.h	/^  const void * (*value_text16le)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+value_type	include/sqlite3ext.h	/^  int  (*value_type)(sqlite3_value*);$/;"	m	struct:sqlite3_api_routines
+vfs_find	include/sqlite3ext.h	/^  sqlite3_vfs *(*vfs_find)(const char*);$/;"	m	struct:sqlite3_api_routines
+vfs_register	include/sqlite3ext.h	/^  int (*vfs_register)(sqlite3_vfs*,int);$/;"	m	struct:sqlite3_api_routines
+vfs_unregister	include/sqlite3ext.h	/^  int (*vfs_unregister)(sqlite3_vfs*);$/;"	m	struct:sqlite3_api_routines
+viewGoods	pthread_sqlite.c	/^int viewGoods (int storageNum_t, int goodsKinds_t)$/;"	f
+vmprintf	include/sqlite3ext.h	/^  char *(*vmprintf)(const char*,va_list);$/;"	m	struct:sqlite3_api_routines
+which	pthread_sms.c	/^	char which;			\/\/消息模板$/;"	m	struct:Message	file:
+x	data_global.h	/^	signed char x;$/;"	m	struct:storage_info
+x	pthread_analysis.c	/^	unsigned char x;$/;"	m	struct:getEnvMsg	file:
+xAccess	include/sqlite3.h	/^  int (*xAccess)(sqlite3_vfs*, const char *zName, int flags, int *pResOut);$/;"	m	struct:sqlite3_vfs
+xAccess	sqlite3.h	/^  int (*xAccess)(sqlite3_vfs*, const char *zName, int flags, int *pResOut);$/;"	m	struct:sqlite3_vfs
+xBegin	include/sqlite3.h	/^  int (*xBegin)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xBegin	sqlite3.h	/^  int (*xBegin)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xBestIndex	include/sqlite3.h	/^  int (*xBestIndex)(sqlite3_vtab *pVTab, sqlite3_index_info*);$/;"	m	struct:sqlite3_module
+xBestIndex	sqlite3.h	/^  int (*xBestIndex)(sqlite3_vtab *pVTab, sqlite3_index_info*);$/;"	m	struct:sqlite3_module
+xCachesize	include/sqlite3.h	/^  void (*xCachesize)(sqlite3_pcache*, int nCachesize);$/;"	m	struct:sqlite3_pcache_methods
+xCachesize	sqlite3.h	/^  void (*xCachesize)(sqlite3_pcache*, int nCachesize);$/;"	m	struct:sqlite3_pcache_methods
+xCheckReservedLock	include/sqlite3.h	/^  int (*xCheckReservedLock)(sqlite3_file*, int *pResOut);$/;"	m	struct:sqlite3_io_methods
+xCheckReservedLock	sqlite3.h	/^  int (*xCheckReservedLock)(sqlite3_file*, int *pResOut);$/;"	m	struct:sqlite3_io_methods
+xClose	include/sqlite3.h	/^  int (*xClose)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xClose	include/sqlite3.h	/^  int (*xClose)(sqlite3_vtab_cursor*);$/;"	m	struct:sqlite3_module
+xClose	sqlite3.h	/^  int (*xClose)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xClose	sqlite3.h	/^  int (*xClose)(sqlite3_vtab_cursor*);$/;"	m	struct:sqlite3_module
+xColumn	include/sqlite3.h	/^  int (*xColumn)(sqlite3_vtab_cursor*, sqlite3_context*, int);$/;"	m	struct:sqlite3_module
+xColumn	sqlite3.h	/^  int (*xColumn)(sqlite3_vtab_cursor*, sqlite3_context*, int);$/;"	m	struct:sqlite3_module
+xCommit	include/sqlite3.h	/^  int (*xCommit)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xCommit	sqlite3.h	/^  int (*xCommit)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xConnect	include/sqlite3.h	/^  int (*xConnect)(sqlite3*, void *pAux,$/;"	m	struct:sqlite3_module
+xConnect	sqlite3.h	/^  int (*xConnect)(sqlite3*, void *pAux,$/;"	m	struct:sqlite3_module
+xCreate	include/sqlite3.h	/^  int (*xCreate)(sqlite3*, void *pAux,$/;"	m	struct:sqlite3_module
+xCreate	include/sqlite3.h	/^  sqlite3_pcache *(*xCreate)(int szPage, int bPurgeable);$/;"	m	struct:sqlite3_pcache_methods
+xCreate	sqlite3.h	/^  int (*xCreate)(sqlite3*, void *pAux,$/;"	m	struct:sqlite3_module
+xCreate	sqlite3.h	/^  sqlite3_pcache *(*xCreate)(int szPage, int bPurgeable);$/;"	m	struct:sqlite3_pcache_methods
+xCurrentTime	include/sqlite3.h	/^  int (*xCurrentTime)(sqlite3_vfs*, double*);$/;"	m	struct:sqlite3_vfs
+xCurrentTime	sqlite3.h	/^  int (*xCurrentTime)(sqlite3_vfs*, double*);$/;"	m	struct:sqlite3_vfs
+xCurrentTimeInt64	include/sqlite3.h	/^  int (*xCurrentTimeInt64)(sqlite3_vfs*, sqlite3_int64*);$/;"	m	struct:sqlite3_vfs
+xCurrentTimeInt64	sqlite3.h	/^  int (*xCurrentTimeInt64)(sqlite3_vfs*, sqlite3_int64*);$/;"	m	struct:sqlite3_vfs
+xDelUser	include/sqlite3.h	/^  void (*xDelUser)(void *);       \/* Called by SQLite to clean up pUser *\/$/;"	m	struct:sqlite3_rtree_geometry
+xDelUser	sqlite3.h	/^  void (*xDelUser)(void *);       \/* Called by SQLite to clean up pUser *\/$/;"	m	struct:sqlite3_rtree_geometry
+xDelete	include/sqlite3.h	/^  int (*xDelete)(sqlite3_vfs*, const char *zName, int syncDir);$/;"	m	struct:sqlite3_vfs
+xDelete	sqlite3.h	/^  int (*xDelete)(sqlite3_vfs*, const char *zName, int syncDir);$/;"	m	struct:sqlite3_vfs
+xDestroy	include/sqlite3.h	/^  int (*xDestroy)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xDestroy	include/sqlite3.h	/^  void (*xDestroy)(sqlite3_pcache*);$/;"	m	struct:sqlite3_pcache_methods
+xDestroy	sqlite3.h	/^  int (*xDestroy)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xDestroy	sqlite3.h	/^  void (*xDestroy)(sqlite3_pcache*);$/;"	m	struct:sqlite3_pcache_methods
+xDeviceCharacteristics	include/sqlite3.h	/^  int (*xDeviceCharacteristics)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xDeviceCharacteristics	sqlite3.h	/^  int (*xDeviceCharacteristics)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xDisconnect	include/sqlite3.h	/^  int (*xDisconnect)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xDisconnect	sqlite3.h	/^  int (*xDisconnect)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xDlClose	include/sqlite3.h	/^  void (*xDlClose)(sqlite3_vfs*, void*);$/;"	m	struct:sqlite3_vfs
+xDlClose	sqlite3.h	/^  void (*xDlClose)(sqlite3_vfs*, void*);$/;"	m	struct:sqlite3_vfs
+xDlError	include/sqlite3.h	/^  void (*xDlError)(sqlite3_vfs*, int nByte, char *zErrMsg);$/;"	m	struct:sqlite3_vfs
+xDlError	sqlite3.h	/^  void (*xDlError)(sqlite3_vfs*, int nByte, char *zErrMsg);$/;"	m	struct:sqlite3_vfs
+xDlOpen	include/sqlite3.h	/^  void *(*xDlOpen)(sqlite3_vfs*, const char *zFilename);$/;"	m	struct:sqlite3_vfs
+xDlOpen	sqlite3.h	/^  void *(*xDlOpen)(sqlite3_vfs*, const char *zFilename);$/;"	m	struct:sqlite3_vfs
+xEof	include/sqlite3.h	/^  int (*xEof)(sqlite3_vtab_cursor*);$/;"	m	struct:sqlite3_module
+xEof	sqlite3.h	/^  int (*xEof)(sqlite3_vtab_cursor*);$/;"	m	struct:sqlite3_module
+xFetch	include/sqlite3.h	/^  void *(*xFetch)(sqlite3_pcache*, unsigned key, int createFlag);$/;"	m	struct:sqlite3_pcache_methods
+xFetch	sqlite3.h	/^  void *(*xFetch)(sqlite3_pcache*, unsigned key, int createFlag);$/;"	m	struct:sqlite3_pcache_methods
+xFileControl	include/sqlite3.h	/^  int (*xFileControl)(sqlite3_file*, int op, void *pArg);$/;"	m	struct:sqlite3_io_methods
+xFileControl	sqlite3.h	/^  int (*xFileControl)(sqlite3_file*, int op, void *pArg);$/;"	m	struct:sqlite3_io_methods
+xFileSize	include/sqlite3.h	/^  int (*xFileSize)(sqlite3_file*, sqlite3_int64 *pSize);$/;"	m	struct:sqlite3_io_methods
+xFileSize	sqlite3.h	/^  int (*xFileSize)(sqlite3_file*, sqlite3_int64 *pSize);$/;"	m	struct:sqlite3_io_methods
+xFilter	include/sqlite3.h	/^  int (*xFilter)(sqlite3_vtab_cursor*, int idxNum, const char *idxStr,$/;"	m	struct:sqlite3_module
+xFilter	sqlite3.h	/^  int (*xFilter)(sqlite3_vtab_cursor*, int idxNum, const char *idxStr,$/;"	m	struct:sqlite3_module
+xFindFunction	include/sqlite3.h	/^  int (*xFindFunction)(sqlite3_vtab *pVtab, int nArg, const char *zName,$/;"	m	struct:sqlite3_module
+xFindFunction	sqlite3.h	/^  int (*xFindFunction)(sqlite3_vtab *pVtab, int nArg, const char *zName,$/;"	m	struct:sqlite3_module
+xFree	include/sqlite3.h	/^  void (*xFree)(void*);          \/* Free a prior allocation *\/$/;"	m	struct:sqlite3_mem_methods
+xFree	sqlite3.h	/^  void (*xFree)(void*);          \/* Free a prior allocation *\/$/;"	m	struct:sqlite3_mem_methods
+xFullPathname	include/sqlite3.h	/^  int (*xFullPathname)(sqlite3_vfs*, const char *zName, int nOut, char *zOut);$/;"	m	struct:sqlite3_vfs
+xFullPathname	sqlite3.h	/^  int (*xFullPathname)(sqlite3_vfs*, const char *zName, int nOut, char *zOut);$/;"	m	struct:sqlite3_vfs
+xGetLastError	include/sqlite3.h	/^  int (*xGetLastError)(sqlite3_vfs*, int, char *);$/;"	m	struct:sqlite3_vfs
+xGetLastError	sqlite3.h	/^  int (*xGetLastError)(sqlite3_vfs*, int, char *);$/;"	m	struct:sqlite3_vfs
+xInit	include/sqlite3.h	/^  int (*xInit)(void*);           \/* Initialize the memory allocator *\/$/;"	m	struct:sqlite3_mem_methods
+xInit	include/sqlite3.h	/^  int (*xInit)(void*);$/;"	m	struct:sqlite3_pcache_methods
+xInit	sqlite3.h	/^  int (*xInit)(void*);           \/* Initialize the memory allocator *\/$/;"	m	struct:sqlite3_mem_methods
+xInit	sqlite3.h	/^  int (*xInit)(void*);$/;"	m	struct:sqlite3_pcache_methods
+xLock	include/sqlite3.h	/^  int (*xLock)(sqlite3_file*, int);$/;"	m	struct:sqlite3_io_methods
+xLock	sqlite3.h	/^  int (*xLock)(sqlite3_file*, int);$/;"	m	struct:sqlite3_io_methods
+xMalloc	include/sqlite3.h	/^  void *(*xMalloc)(int);         \/* Memory allocation function *\/$/;"	m	struct:sqlite3_mem_methods
+xMalloc	sqlite3.h	/^  void *(*xMalloc)(int);         \/* Memory allocation function *\/$/;"	m	struct:sqlite3_mem_methods
+xMutexAlloc	include/sqlite3.h	/^  sqlite3_mutex *(*xMutexAlloc)(int);$/;"	m	struct:sqlite3_mutex_methods
+xMutexAlloc	sqlite3.h	/^  sqlite3_mutex *(*xMutexAlloc)(int);$/;"	m	struct:sqlite3_mutex_methods
+xMutexEnd	include/sqlite3.h	/^  int (*xMutexEnd)(void);$/;"	m	struct:sqlite3_mutex_methods
+xMutexEnd	sqlite3.h	/^  int (*xMutexEnd)(void);$/;"	m	struct:sqlite3_mutex_methods
+xMutexEnter	include/sqlite3.h	/^  void (*xMutexEnter)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexEnter	sqlite3.h	/^  void (*xMutexEnter)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexFree	include/sqlite3.h	/^  void (*xMutexFree)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexFree	sqlite3.h	/^  void (*xMutexFree)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexHeld	include/sqlite3.h	/^  int (*xMutexHeld)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexHeld	sqlite3.h	/^  int (*xMutexHeld)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexInit	include/sqlite3.h	/^  int (*xMutexInit)(void);$/;"	m	struct:sqlite3_mutex_methods
+xMutexInit	sqlite3.h	/^  int (*xMutexInit)(void);$/;"	m	struct:sqlite3_mutex_methods
+xMutexLeave	include/sqlite3.h	/^  void (*xMutexLeave)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexLeave	sqlite3.h	/^  void (*xMutexLeave)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexNotheld	include/sqlite3.h	/^  int (*xMutexNotheld)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexNotheld	sqlite3.h	/^  int (*xMutexNotheld)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexTry	include/sqlite3.h	/^  int (*xMutexTry)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexTry	sqlite3.h	/^  int (*xMutexTry)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xNext	include/sqlite3.h	/^  int (*xNext)(sqlite3_vtab_cursor*);$/;"	m	struct:sqlite3_module
+xNext	sqlite3.h	/^  int (*xNext)(sqlite3_vtab_cursor*);$/;"	m	struct:sqlite3_module
+xOpen	include/sqlite3.h	/^  int (*xOpen)(sqlite3_vfs*, const char *zName, sqlite3_file*,$/;"	m	struct:sqlite3_vfs
+xOpen	include/sqlite3.h	/^  int (*xOpen)(sqlite3_vtab *pVTab, sqlite3_vtab_cursor **ppCursor);$/;"	m	struct:sqlite3_module
+xOpen	sqlite3.h	/^  int (*xOpen)(sqlite3_vfs*, const char *zName, sqlite3_file*,$/;"	m	struct:sqlite3_vfs
+xOpen	sqlite3.h	/^  int (*xOpen)(sqlite3_vtab *pVTab, sqlite3_vtab_cursor **ppCursor);$/;"	m	struct:sqlite3_module
+xPagecount	include/sqlite3.h	/^  int (*xPagecount)(sqlite3_pcache*);$/;"	m	struct:sqlite3_pcache_methods
+xPagecount	sqlite3.h	/^  int (*xPagecount)(sqlite3_pcache*);$/;"	m	struct:sqlite3_pcache_methods
+xRandomness	include/sqlite3.h	/^  int (*xRandomness)(sqlite3_vfs*, int nByte, char *zOut);$/;"	m	struct:sqlite3_vfs
+xRandomness	sqlite3.h	/^  int (*xRandomness)(sqlite3_vfs*, int nByte, char *zOut);$/;"	m	struct:sqlite3_vfs
+xRead	include/sqlite3.h	/^  int (*xRead)(sqlite3_file*, void*, int iAmt, sqlite3_int64 iOfst);$/;"	m	struct:sqlite3_io_methods
+xRead	sqlite3.h	/^  int (*xRead)(sqlite3_file*, void*, int iAmt, sqlite3_int64 iOfst);$/;"	m	struct:sqlite3_io_methods
+xRealloc	include/sqlite3.h	/^  void *(*xRealloc)(void*,int);  \/* Resize an allocation *\/$/;"	m	struct:sqlite3_mem_methods
+xRealloc	sqlite3.h	/^  void *(*xRealloc)(void*,int);  \/* Resize an allocation *\/$/;"	m	struct:sqlite3_mem_methods
+xRekey	include/sqlite3.h	/^  void (*xRekey)(sqlite3_pcache*, void*, unsigned oldKey, unsigned newKey);$/;"	m	struct:sqlite3_pcache_methods
+xRekey	sqlite3.h	/^  void (*xRekey)(sqlite3_pcache*, void*, unsigned oldKey, unsigned newKey);$/;"	m	struct:sqlite3_pcache_methods
+xRename	include/sqlite3.h	/^  int (*xRename)(sqlite3_vtab *pVtab, const char *zNew);$/;"	m	struct:sqlite3_module
+xRename	sqlite3.h	/^  int (*xRename)(sqlite3_vtab *pVtab, const char *zNew);$/;"	m	struct:sqlite3_module
+xRollback	include/sqlite3.h	/^  int (*xRollback)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xRollback	sqlite3.h	/^  int (*xRollback)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xRoundup	include/sqlite3.h	/^  int (*xRoundup)(int);          \/* Round up request size to allocation size *\/$/;"	m	struct:sqlite3_mem_methods
+xRoundup	sqlite3.h	/^  int (*xRoundup)(int);          \/* Round up request size to allocation size *\/$/;"	m	struct:sqlite3_mem_methods
+xRowid	include/sqlite3.h	/^  int (*xRowid)(sqlite3_vtab_cursor*, sqlite3_int64 *pRowid);$/;"	m	struct:sqlite3_module
+xRowid	sqlite3.h	/^  int (*xRowid)(sqlite3_vtab_cursor*, sqlite3_int64 *pRowid);$/;"	m	struct:sqlite3_module
+xSectorSize	include/sqlite3.h	/^  int (*xSectorSize)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xSectorSize	sqlite3.h	/^  int (*xSectorSize)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xShmBarrier	include/sqlite3.h	/^  void (*xShmBarrier)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xShmBarrier	sqlite3.h	/^  void (*xShmBarrier)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xShmLock	include/sqlite3.h	/^  int (*xShmLock)(sqlite3_file*, int offset, int n, int flags);$/;"	m	struct:sqlite3_io_methods
+xShmLock	sqlite3.h	/^  int (*xShmLock)(sqlite3_file*, int offset, int n, int flags);$/;"	m	struct:sqlite3_io_methods
+xShmMap	include/sqlite3.h	/^  int (*xShmMap)(sqlite3_file*, int iPg, int pgsz, int, void volatile**);$/;"	m	struct:sqlite3_io_methods
+xShmMap	sqlite3.h	/^  int (*xShmMap)(sqlite3_file*, int iPg, int pgsz, int, void volatile**);$/;"	m	struct:sqlite3_io_methods
+xShmUnmap	include/sqlite3.h	/^  int (*xShmUnmap)(sqlite3_file*, int deleteFlag);$/;"	m	struct:sqlite3_io_methods
+xShmUnmap	sqlite3.h	/^  int (*xShmUnmap)(sqlite3_file*, int deleteFlag);$/;"	m	struct:sqlite3_io_methods
+xShutdown	include/sqlite3.h	/^  void (*xShutdown)(void*);      \/* Deinitialize the memory allocator *\/$/;"	m	struct:sqlite3_mem_methods
+xShutdown	include/sqlite3.h	/^  void (*xShutdown)(void*);$/;"	m	struct:sqlite3_pcache_methods
+xShutdown	sqlite3.h	/^  void (*xShutdown)(void*);      \/* Deinitialize the memory allocator *\/$/;"	m	struct:sqlite3_mem_methods
+xShutdown	sqlite3.h	/^  void (*xShutdown)(void*);$/;"	m	struct:sqlite3_pcache_methods
+xSize	include/sqlite3.h	/^  int (*xSize)(void*);           \/* Return the size of an allocation *\/$/;"	m	struct:sqlite3_mem_methods
+xSize	sqlite3.h	/^  int (*xSize)(void*);           \/* Return the size of an allocation *\/$/;"	m	struct:sqlite3_mem_methods
+xSleep	include/sqlite3.h	/^  int (*xSleep)(sqlite3_vfs*, int microseconds);$/;"	m	struct:sqlite3_vfs
+xSleep	sqlite3.h	/^  int (*xSleep)(sqlite3_vfs*, int microseconds);$/;"	m	struct:sqlite3_vfs
+xSync	include/sqlite3.h	/^  int (*xSync)(sqlite3_file*, int flags);$/;"	m	struct:sqlite3_io_methods
+xSync	include/sqlite3.h	/^  int (*xSync)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xSync	sqlite3.h	/^  int (*xSync)(sqlite3_file*, int flags);$/;"	m	struct:sqlite3_io_methods
+xSync	sqlite3.h	/^  int (*xSync)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xTruncate	include/sqlite3.h	/^  int (*xTruncate)(sqlite3_file*, sqlite3_int64 size);$/;"	m	struct:sqlite3_io_methods
+xTruncate	include/sqlite3.h	/^  void (*xTruncate)(sqlite3_pcache*, unsigned iLimit);$/;"	m	struct:sqlite3_pcache_methods
+xTruncate	sqlite3.h	/^  int (*xTruncate)(sqlite3_file*, sqlite3_int64 size);$/;"	m	struct:sqlite3_io_methods
+xTruncate	sqlite3.h	/^  void (*xTruncate)(sqlite3_pcache*, unsigned iLimit);$/;"	m	struct:sqlite3_pcache_methods
+xUnlock	include/sqlite3.h	/^  int (*xUnlock)(sqlite3_file*, int);$/;"	m	struct:sqlite3_io_methods
+xUnlock	sqlite3.h	/^  int (*xUnlock)(sqlite3_file*, int);$/;"	m	struct:sqlite3_io_methods
+xUnpin	include/sqlite3.h	/^  void (*xUnpin)(sqlite3_pcache*, void*, int discard);$/;"	m	struct:sqlite3_pcache_methods
+xUnpin	sqlite3.h	/^  void (*xUnpin)(sqlite3_pcache*, void*, int discard);$/;"	m	struct:sqlite3_pcache_methods
+xUpdate	include/sqlite3.h	/^  int (*xUpdate)(sqlite3_vtab *, int, sqlite3_value **, sqlite3_int64 *);$/;"	m	struct:sqlite3_module
+xUpdate	sqlite3.h	/^  int (*xUpdate)(sqlite3_vtab *, int, sqlite3_value **, sqlite3_int64 *);$/;"	m	struct:sqlite3_module
+xWrite	include/sqlite3.h	/^  int (*xWrite)(sqlite3_file*, const void*, int iAmt, sqlite3_int64 iOfst);$/;"	m	struct:sqlite3_io_methods
+xWrite	sqlite3.h	/^  int (*xWrite)(sqlite3_file*, const void*, int iAmt, sqlite3_int64 iOfst);$/;"	m	struct:sqlite3_io_methods
+xthreadsafe	include/sqlite3ext.h	/^  int (*xthreadsafe)(void);$/;"	m	struct:sqlite3_api_routines
+y	data_global.h	/^	signed char y;$/;"	m	struct:storage_info
+y	pthread_analysis.c	/^	unsigned char y;$/;"	m	struct:getEnvMsg	file:
+z	data_global.h	/^	signed char z;$/;"	m	struct:storage_info
+z	pthread_analysis.c	/^	unsigned char z;$/;"	m	struct:getEnvMsg	file:
+zErrMsg	include/sqlite3.h	/^  char *zErrMsg;                  \/* Error message from sqlite3_mprintf() *\/$/;"	m	struct:sqlite3_vtab
+zErrMsg	sqlite3.h	/^  char *zErrMsg;                  \/* Error message from sqlite3_mprintf() *\/$/;"	m	struct:sqlite3_vtab
+zName	include/sqlite3.h	/^  const char *zName;       \/* Name of this virtual file system *\/$/;"	m	struct:sqlite3_vfs
+zName	sqlite3.h	/^  const char *zName;       \/* Name of this virtual file system *\/$/;"	m	struct:sqlite3_vfs
